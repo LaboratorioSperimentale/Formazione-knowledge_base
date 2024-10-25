@@ -1,0 +1,15 @@
+# Digital Text Annotation and Analysis with CATMA 7
+
+## Introduction:
+### What is CATMA?
+
+CATMA,or  **Computer Assisted Text Markup and Analysis**, is a free open source tool for text annotation, analysis and visualization that supports collaborative work.<br>
+
+It's divided into 4 modules:
+
+- _Project_, where you manage your project resources
+- _Tags_, that enables you to add, edit and deleting tagsets
+- _Annotate_, that allows you to annotate your text, edit and delete annotations 
+- _Analyze_, that offers the opportunity to analyze your text, but also to do visualization and semi-automatic annotation
+
+
