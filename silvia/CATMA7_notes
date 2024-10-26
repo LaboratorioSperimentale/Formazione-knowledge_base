@@ -4,7 +4,7 @@
 
 CATMA,or  **Computer Assisted Text Markup and Analysis**, is a free open source tool for text annotation, analysis and visualization that supports collaborative work.<br>
 
-
+It's made up of 4 modules:
 
 | Module | Description|
 |--------|------------|
@@ -13,12 +13,19 @@ CATMA,or  **Computer Assisted Text Markup and Analysis**, is a free open source 
 | ANNOTATE | It allows you to annotate your text, edit and delete annotations |
 | ANALYZE | It offers the opportunity to analyze your text, but also to do visualization and semi-automatic annotation|
 
+![alt text](<CATMA modules.png>) 
+
+
 Text and annotation can be searched and analyzed using the **built in query language** based on different criteria, such as word frequency, annotation category or similarity to other words and annotations.<br>
 The results of query can be visualized and explored using a few simple visualizations such as the distribution graph or the word cloud, for example.<br>
 
 ## Agenda
 - ### Part 1 - Project preparation and Annotation
      - Introduction
+       - Account and Login
+       - Project Module - Creating a project, Uploading a document, Managing members
+       - Tagset Module - Creating a tagset
+       - Annotation Module - Annotating manually, Comments feature
      - Live Demo
      - Q & A
 - ### Part 2 - Analysis, Visualizations and semi-automatic Annotation
@@ -29,5 +36,8 @@ The results of query can be visualized and explored using a few simple visualiza
 
 
 
+### Part 1 - Project preparation and Annotation
+
+![alt text](<SIgn Up-Sign In.png>)
  
 
