@@ -2,9 +2,9 @@
 
 ## A brief Introduction: What is CATMA?
 
-CATMA,or  **Computer Assisted Text Markup and Analysis**, is a free open source tool for text annotation, analysis and visualization that supports collaborative work.<br>
+[CATMA](https://catma.de/), or  **Computer Assisted Text Markup and Analysis**, is a free open source tool for text annotation, analysis and visualization that supports collaborative work.<br>
 
-It's made up of 4 modules:
+It is made up of 4 modules:
 
 | Module | Description|
 |--------|------------|
@@ -33,11 +33,27 @@ The results of query can be visualized and explored using a few simple visualiza
      - Live Demo
      - Q & A
 - ### Part 3 - Export and further explanation
+<br>
 
 
-
-### Part 1 - Project preparation and Annotation
-
+- ### Part 1 - Project preparation and Annotation
+  - Account and login
+  
 ![alt text](<SIgn Up-Sign In.png>)
- 
+If you want to go to this page: https://app.catma.de/
+
+First of all, you have to create an account to use this tool. In order to create an account you can either use a Google account or a private e-mail.<br>
+
+![alt text](<sign up_two options.png>)
+
+
+
+After signing up, you will receive a verification e-mail to the adress you used for registration.<br>
+Once your e-mail adress has been verified, you will be able to complete your profile by choosing username and password. <br>
+Then, sign in and you will be taken to the project overview, ready to initiate your first project.
+
+![alt text](image.png)
+
+
+You will see that you have the option to either join a project or to create a new project. Moreover you see the sidebar which is still deactivated but which will be activated as soon as you have entered your project and the sitebar guides you through the different.
 
