@@ -19,25 +19,16 @@ It is made up of 4 modules:
 Text and annotation can be searched and analyzed using the **built in query language** based on different criteria, such as word frequency, annotation category or similarity to other words and annotations.<br>
 The results of query can be visualized and explored using a few simple visualizations such as the distribution graph or the word cloud, for example.<br>
 
-## Agenda
-- ### Part 1 - Project preparation and Annotation
-     - Introduction
-       - Account and Login
-       - Project Module - Creating a project, Uploading a document, Managing members
-       - Tagset Module - Creating a tagset
-       - Annotation Module - Annotating manually, Comments feature
-     - Live Demo
-     - Q & A
-- ### Part 2 - Analysis, Visualizations and semi-automatic Annotation
-     - Introduction 
-     - Live Demo
-     - Q & A
-- ### Part 3 - Export and further explanation
-<br>
 
 
-- ### Part 1 - Project preparation and Annotation
-  - Account and login
+- [Digital Text Annotation and Analysis with CATMA 7](#digital-text-annotation-and-analysis-with-catma-7)
+  - [A brief Introduction: What is CATMA?](#a-brief-introduction-what-is-catma)
+    - [Part 1 - Project preparation and Annotation](#part-1---project-preparation-and-annotation)
+    - [Part 2 - Analysis, Visualizations and semi-automatic Annotation](#part-2---analysis-visualizations-and-semi-automatic-annotation)
+
+
+### Part 1 - Project preparation and Annotation
+  - #### Account and Login
   
 ![alt text](<SIgn Up-Sign In.png>)
 If you want to go to this page: https://app.catma.de/
@@ -55,5 +46,7 @@ Then, sign in and you will be taken to the project overview, ready to initiate y
 ![alt text](image.png)
 
 
-You will see that you have the option to either join a project or to create a new project. Moreover you see the sidebar which is still deactivated but which will be activated as soon as you have entered your project and the sitebar guides you through the different.
+You will see that you have the option to either join a project or to create a new project. Moreover you see the sidebar which is still deactivated but which will be activated as soon as you have entered your project and the sitebar guides you through the different.<br>
+
+### Part 2 - Analysis, Visualizations and semi-automatic Annotation
 
