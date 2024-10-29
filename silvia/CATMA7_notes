@@ -1,0 +1,52 @@
+# Digital Text Annotation and Analysis with CATMA 7
+
+## A brief Introduction: What is CATMA?
+
+[CATMA](https://catma.de/), or  **Computer Assisted Text Markup and Analysis**, is a free open source tool for text annotation, analysis and visualization that supports collaborative work.<br>
+
+It is made up of 4 modules:
+
+| Module | Description|
+|--------|------------|
+|PROJECT | Where you manage your project resources|
+| TAGS   | It enables you to add, edit and deleting tagsets|
+| ANNOTATE | It allows you to annotate your text, edit and delete annotations |
+| ANALYZE | It offers the opportunity to analyze your text, but also to do visualization and semi-automatic annotation|
+
+![alt text](<CATMA modules.png>) 
+
+
+Text and annotation can be searched and analyzed using the **built in query language** based on different criteria, such as word frequency, annotation category or similarity to other words and annotations.<br>
+The results of query can be visualized and explored using a few simple visualizations such as the distribution graph or the word cloud, for example.<br>
+
+
+
+- [Digital Text Annotation and Analysis with CATMA 7](#digital-text-annotation-and-analysis-with-catma-7)
+  - [A brief Introduction: What is CATMA?](#a-brief-introduction-what-is-catma)
+    - [Part 1 - Project preparation and Annotation](#part-1---project-preparation-and-annotation)
+    - [Part 2 - Analysis, Visualizations and semi-automatic Annotation](#part-2---analysis-visualizations-and-semi-automatic-annotation)
+
+
+### Part 1 - Project preparation and Annotation
+  - #### Account and Login
+  
+![alt text](<SIgn Up-Sign In.png>)
+If you want to go to this page: https://app.catma.de/
+
+First of all, you have to create an account to use this tool. In order to create an account you can either use a Google account or a private e-mail.<br>
+
+![alt text](<sign up_two options.png>)
+
+
+
+After signing up, you will receive a verification e-mail to the adress you used for registration.<br>
+Once your e-mail adress has been verified, you will be able to complete your profile by choosing username and password. <br>
+Then, sign in and you will be taken to the project overview, ready to initiate your first project.
+
+![alt text](image.png)
+
+
+You will see that you have the option to either join a project or to create a new project. Moreover you see the sidebar which is still deactivated but which will be activated as soon as you have entered your project and the sitebar guides you through the different.<br>
+
+### Part 2 - Analysis, Visualizations and semi-automatic Annotation
+
