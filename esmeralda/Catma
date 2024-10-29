@@ -1,9 +1,21 @@
 > ### Table of contents
 >
-> - What is Catma
-> - Account and Login
-> - Project module
-> - Tagset Module
-> - Annotation Module
->
+> - [What is Catma](#catma)
+>   - [Account and Login](#account-and-login)
+>   - Project module
+>   - Tags Module
+>   - Annotate Module
+>   - Analyze Module
+> - Project Preparation & Annotation
+>   - Creating a project, Uploading a document, Managing members
+>   - Creating a tagset
+>   - Annootating manually, Comments feature
+> - Analysis, Visualisations and semi-automatic annotation
 > 
+
+# Catma
+Catma stands for **Computer Assisted Text Markup and Analysis**. Offered since 2018, it is a free open source text annotation tool particularly suitable for manual text annotation. It is used to do both qualitative and quantitative anaylisis on linguistic and literary features of texts.  
+Catma also supports collaborative work not only in the annotation process, but also in managing data, project members and results.
+
+### Account and Login 
+You can create an a
