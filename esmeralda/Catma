@@ -2,7 +2,7 @@
 >
 > - [What is Catma](#catma)
 >   - [Account and Login](#account-and-login)
->   - Project module
+>   - [Project module](#Project-Module)
 >   - Tags Module
 >   - Annotate Module
 >   - Analyze Module
@@ -13,9 +13,47 @@
 > - Analysis, Visualisations and semi-automatic annotation
 > 
 
+
+
 # Catma
 Catma stands for **Computer Assisted Text Markup and Analysis**. Offered since 2018, it is a free open source text annotation tool particularly suitable for manual text annotation. It is used to do both qualitative and quantitative anaylisis on linguistic and literary features of texts.  
 Catma also supports collaborative work not only in the annotation process, but also in managing data, project members and results.
 
+_________________
+
 ### Account and Login 
-You can create an a
+You can create an account using a private e-mail or a Google account.
+
+<img src="Catma-Sign.PNG" width="916.8" height="412">
+
+After signing up, you will receive a verification e-mail to the address used for registration. Once your e-mail address has been verified, you will be able to complete your profile by choosing username and pasword.  
+Once you have set your username and password, you are ready to initiate your first project.
+
+_________________
+
+### Project Module
+After you have logged into your account, you will be taken to the project overview.  
+You will receive an overview of existing projects which are coloured in grey and you will see that you have the option to either **join** a project or to **create** a new project.  
+
+<img src="Catma-Home.PNG" width="882" height="416.4">
+
+There is also a sidebar which is still deactivated but which will be activated as soon as you have entered your project and it guides you through the different modules.
+On entering the project module by selecting a project, you will be able to manage its components and each component class is displayed in a tile.  
+
+<img src="Catma-Project.PNG" width="903.6" height="418.8">  
+
+There is a tile for Documents & Annotations, one for the Tagsets belonging to this project and one for the Project Members.
+
+In the tile for **Documents & Annotations**, you can see and upload projects. 
+You can upload those texts from your local computer or you can simply add an URL. You can also delete the tags and annotation collections and export collections or documents, including your annotations.  
+In order to annotate the documents, you will always first have to create an annotation collection.  
+
+You will also see which person has created a resource and who is therefore responsible for it. Please note that you can only add an annotation collection if your project role allows it, because in Catma there are different *roles* tied to different permissions. We have *partners*, *assistants* and *owners*.  
+Owners create the project and have all the rights you can think of. A partner can do everything except manage members or delete a project. Assistants don't have any project administration rights and cannot create or delete resources, but they can view resources and tags as texts or annotations.
+
+Then in the second tile you can see the **Tagsets** (a sort of container of tags). Here you can also create a new tag, delete tags or add to them. Notice though that you can create new tagsets, but if you want to actually add a tag to a tagset, you will have to do this in the **Tags** module.
+
+The third tile in the project module, we see the Project **Members**, it will display at least the project owner as well as the role of the project owner or the project member.  
+If your role allows it, you can add Members of this project by either joining manually (adding his or her username), or via invitation in real time. If you choose the latter, the invitation in a real time pop up dialogue with a code will appear, and everyone who has access to the code will be able to join the project. This code will be valid as long as you keep the pop up window opened and then it won't be valid anymorE. 
+ 
+You can see the synchronise SYNC button in the upper right corner and whenever you work together with others in a collaborative project, each individual team member has to synchronise his or her project progress in order to share their uploaded documents, annotations or new tags with the other team members. So clicking this button starts the process of integrating your changes with the most recent integrated project stage. In other words, it attempts to integrate anything you have done since you last synchronised. 
