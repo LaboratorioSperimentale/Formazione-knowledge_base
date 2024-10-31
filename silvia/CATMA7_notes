@@ -1,10 +1,8 @@
-# Digital Text Annotation and Analysis with CATMA 7
-
 ## A brief Introduction: What is CATMA?
 
 [CATMA](https://catma.de/), or  **Computer Assisted Text Markup and Analysis**, is a free open source tool for text annotation, analysis and visualization that supports collaborative work.<br>
 
-It is made up of 4 modules:
+It is made up of 4 modules, which are briefly sketched as follows but will be discussed in greater detail :
 
 | Module | Description|
 |--------|------------|
@@ -16,37 +14,57 @@ It is made up of 4 modules:
 ![alt text](<CATMA modules.png>) 
 
 
-Text and annotation can be searched and analyzed using the **built in query language** based on different criteria, such as word frequency, annotation category or similarity to other words and annotations.<br>
-The results of query can be visualized and explored using a few simple visualizations such as the distribution graph or the word cloud, for example.<br>
+Text and annotation can be searched and analyzed using the **built in query language** based on different criteria, such as word frequency, annotation category or similarity to other words and annotations (?).<br>
+The results of query can be visualized and explored using the distribution graph or the word cloud, for example.<br>
 
-
-
-- [Digital Text Annotation and Analysis with CATMA 7](#digital-text-annotation-and-analysis-with-catma-7)
-  - [A brief Introduction: What is CATMA?](#a-brief-introduction-what-is-catma)
-    - [Part 1 - Project preparation and Annotation](#part-1---project-preparation-and-annotation)
-    - [Part 2 - Analysis, Visualizations and semi-automatic Annotation](#part-2---analysis-visualizations-and-semi-automatic-annotation)
-
+>
+>### Table of contents
+>
+>- [Part 1 - Project preparation and Annotation](#part-1---project-preparation-and-annotation)
+>   - [Account and Login](#account-and-login)
+>   - [Project Overview](#project-overview)
+>   - [Project Module](#project-module)
+>- [Part 2 - Analysis, Visualizations and semi-automatic Annotation](#part-2---analysis-visualizations-and-semi-automatic-annotation)
+> 
 
 ### Part 1 - Project preparation and Annotation
   - #### Account and Login
   
+First of all, in order to use CATMA you need to create an account.
+
 ![alt text](<SIgn Up-Sign In.png>)
-If you want to go to this page: https://app.catma.de/
+_If you want to log in and start your session on CATMA_: https://app.catma.de/
 
-First of all, you have to create an account to use this tool. In order to create an account you can either use a Google account or a private e-mail.<br>
-
-![alt text](<sign up_two options.png>)
-
-
-
-After signing up, you will receive a verification e-mail to the adress you used for registration.<br>
+As for the account, you can either use a Google account or a private e-mail.<br>
+After signing up, you will receive a verification e-mail to the address you used for registration.<br>
 Once your e-mail adress has been verified, you will be able to complete your profile by choosing username and password. <br>
-Then, sign in and you will be taken to the project overview, ready to initiate your first project.
+Sign in to access the project overview, and you'll be all set to begin your first project.
 
-![alt text](image.png)
+  - #### Project Overview
+
+![alt text](image.png "The project overview")
+
+You will see that you have the option to either create or join a project. Moreover there is a sidebar on the left with all the modules introduced earlier, which will be deactivated. In fact, if you click on the sidebar it won't work. But don't worry, it will be activated as soon as you enter your project.<br>
+The sidebar will guide you through the different modules.
+
+- #### Project module
+
+As soon as you enter the project module by selecting the project you want to work on, you will see all the components of your project:
+
+![alt text](image-2.png "This is a project I've created")
+_Here I've created a new project and given it a name._
+
+![alt text](image-3.png "If you click on the project you'll see all its components")
+_These are the components of the project._
+
+The project module allows you to manage those components, each displayed in a tile. As you can see there is a tile for documents and annotations, one for the tagsets and one for the project members.<br>
+In the tile "Documents & Annotations", if you click on the "+ symbol" you can upload documents from your local computer or you can simply add an URL. 
 
 
-You will see that you have the option to either join a project or to create a new project. Moreover you see the sidebar which is still deactivated but which will be activated as soon as you have entered your project and the sitebar guides you through the different.<br>
 
 ### Part 2 - Analysis, Visualizations and semi-automatic Annotation
+
+
+
+
 
