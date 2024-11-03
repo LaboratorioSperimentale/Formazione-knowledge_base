@@ -1,16 +1,18 @@
 > ### Table of contents
 >
 > - [What is Catma](#catma)
+> - Project Preparation & Annotation
 >   - [Account and Login](#account-and-login)
 >   - [Project module](#Project-Module)
+>        - Creating a project, Uploading a document, Managing members
 >   - [Tags Module](#tags-module)
+>        - Creating a tagset 
 >   - [Annotate Module](#annotate-module)
+>        - Annotating manually, Comments feature
+> - Analysis
 >   - Analyze Module
-> - Project Preparation & Annotation
->   - Creating a project, Uploading a document, Managing members
->   - Creating a tagset
->   - Annootating manually, Comments feature
-> - Analysis, Visualisations and semi-automatic annotation
+> - Visualisations 
+> - Semi-automatic annotation
 > 
 
 
@@ -72,3 +74,19 @@ You can create **subtags** and **properties** for your tags. A subtag is a tag t
 _________________
 
 ### Annotate Module
+Once your project contains at least one document, one annotation collection and a text set, you can start to annotate a document in CATMA's annotate module. 
+When you click on the A. Module, the grey ledge will automatically unfold in order to make you choose your annotation collection and the tagset. 
+Now you can see the text on the left side and the tagset. If the tagset is still disabled, you can enable it by clicking on the eye icon.  
+
+To start annotating, you select a text passage, then do a right click or use the pane on the right, choose the tagset and the property.  
+
+It is also possible to annotate discontinuous passages in order to do so, you have to click on the book icon and you can now select many passages from the text and then apply one tag.  
+
+You can tag the same text passage multiple times. 
+
+There's also the opportunity to leave comments, by selecting a text passage and clicking on the specific icon.  
+
+_________________
+
+### Analyze module 
+
