@@ -52,7 +52,7 @@ In order to annotate the documents, you will always first have to create an anno
 You will also see which person has created a resource and who is therefore responsible for it. Please note that you can only add an annotation collection if your project role allows it, because in Catma there are different *roles* tied to different permissions. [spostare a Members] We have *partners*, *assistants* and *owners*.  
 Owners create the project and have all the rights you can think of. A partner can do everything except manage members or delete a project. Assistants don't have any project administration rights and cannot create or delete resources, but they can view resources and tags as texts or annotations.
 
-Then in the second tile you can see the **Tagsets** (a sort of container of tags). Here you can also create a new tag, delete tags or add to them. Notice though that you can create new tagsets, but if you want to actually add a tag to a tagset, you will have to do this in the [Tags module](#tags-module).
+Then in the second tile you can see the **Tagsets** (a sort of container of tags). Here you can also create a new tag, delete tags or add to them. Notice though that you can create new tagsets, but if you want to actually add a tag to a tagset, you will have to do this in the [Tags module](#tags-module). To edit a tag, you can do it by double-clicking on it or by entering the Tags Module.
 
 The third tile in the project module, we see the Project **Members**, it will display at least the project owner as well as the role of the project owner or the project member.  
 If your role allows it, you can add Members of this project by either joining manually (by clicking the plus icon and adding his or her username), or via invitation in real time (by clicking on the three dots). If you choose the latter, the invitation in a real time pop up dialogue with a code will appear, and everyone who has access to the code will be able to join the project. This code will be valid as long as you keep the pop up window opened and then it won't be valid anymore. 
@@ -64,7 +64,7 @@ Switch Button or the Switch view button on the left of the synchronise button is
 _________________
 
 ### Tags Module
-If you want to create a tag set you have to switch into the tags module. The tags module displays the tagsets of your projects. You can see which of these tagsets are currently selected as well as the exit (?) ones, by extending the grey ledge on the left. 
+If you want to create a tag set you have to switch into the tags module. The tags module displays the tagsets of your projects. You can see which of these tagsets are currently selected as well as the exit (?) ones, by extending the grey ledge on the left. To add a new tag to a tagset, select the tagset, click on the plus icon, then "Add Tag" and choose a name (if you want, you can add properties).
 You can create **subtags** and **properties** for your tags. A subtag is a tag that is sub ordinated to another tag in the tag hierarchy and properties are means to further qualify an annotation (you can add properties to a sub tag as well as normal tags).
 
 <img src="Catma-Tags.PNG" width="914.4" height="419.4">
