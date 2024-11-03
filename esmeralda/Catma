@@ -22,12 +22,12 @@ Catma also supports collaborative work not only in the annotation process, but a
 _________________
 
 ### Account and Login 
-You can create an account using a private e-mail or a Google account.
+Go to the website https://catma.de/ and click on "Work with CATMA". You can create an account using a private e-mail or a Google account.
 
 <img src="Catma-Sign.PNG" width="916.8" height="412">
 
 After signing up, you will receive a verification e-mail to the address used for registration. Once your e-mail address has been verified, you will be able to complete your profile by choosing username and pasword.  
-Once you have set your username and password, you are ready to initiate your first project, by clicking on "Work with Catma".
+Once you have set your username and password, you are ready to initiate your first project. 
 
 _________________
 
@@ -45,16 +45,17 @@ On entering the project module by selecting a project, you will be able to manag
 There is a tile for Documents & Annotations, one for the Tagsets belonging to this project and one for the Project Members.
 
 In the tile for **Documents & Annotations**, you can see and upload projects. 
-You can upload those texts from your local computer or you can simply add an URL. You can also delete the tags and annotation collections and export collections or documents, including your annotations.  
+You can upload those texts from your local computer or you can add an URL.Then you will get a preview of how the document will be displayed, you can adapt for example the character and the language of the text. In the next set you will be able to add information like author, publisher or description. You then choose a pattern for the generation of the annotation collections. Once you click on "Finish" the document will be displayed in the Documents & Annotations tyle. If you want to add another annotation collection for this document, you click on the document and then the plus icon, select "annotation collection", enter a name. You will see now that the annotation collection is displayed beneath the associated document.
+You can also delete the tags and annotation collections and export collections or documents, including your annotations.  
 In order to annotate the documents, you will always first have to create an annotation collection.  
 
-You will also see which person has created a resource and who is therefore responsible for it. Please note that you can only add an annotation collection if your project role allows it, because in Catma there are different *roles* tied to different permissions. We have *partners*, *assistants* and *owners*.  
+You will also see which person has created a resource and who is therefore responsible for it. Please note that you can only add an annotation collection if your project role allows it, because in Catma there are different *roles* tied to different permissions. [spostare a Members] We have *partners*, *assistants* and *owners*.  
 Owners create the project and have all the rights you can think of. A partner can do everything except manage members or delete a project. Assistants don't have any project administration rights and cannot create or delete resources, but they can view resources and tags as texts or annotations.
 
 Then in the second tile you can see the **Tagsets** (a sort of container of tags). Here you can also create a new tag, delete tags or add to them. Notice though that you can create new tagsets, but if you want to actually add a tag to a tagset, you will have to do this in the [Tags module](#tags-module).
 
 The third tile in the project module, we see the Project **Members**, it will display at least the project owner as well as the role of the project owner or the project member.  
-If your role allows it, you can add Members of this project by either joining manually (adding his or her username), or via invitation in real time. If you choose the latter, the invitation in a real time pop up dialogue with a code will appear, and everyone who has access to the code will be able to join the project. This code will be valid as long as you keep the pop up window opened and then it won't be valid anymore. 
+If your role allows it, you can add Members of this project by either joining manually (by clicking the plus icon and adding his or her username), or via invitation in real time (by clicking on the three dots). If you choose the latter, the invitation in a real time pop up dialogue with a code will appear, and everyone who has access to the code will be able to join the project. This code will be valid as long as you keep the pop up window opened and then it won't be valid anymore. 
  
 You can see the synchronise SYNC button in the upper right corner and whenever you work together with others in a collaborative project, each individual team member has to synchronise his or her project progress in order to share their uploaded documents, annotations or new tags with the other team members. So clicking this button starts the process of integrating your changes with the most recent integrated project stage. In other words, it attempts to integrate anything you have done since you last synchronised. 
 
