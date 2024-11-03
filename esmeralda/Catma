@@ -11,7 +11,7 @@
 >        - Annotating manually, Comments feature
 > - Analysis
 >   - Analyze Module
-> - Visualisations 
+>       - Query & Visualisations 
 > - Semi-automatic annotation
 > 
 
@@ -89,4 +89,12 @@ There's also the opportunity to leave comments, by selecting a text passage and 
 _________________
 
 ### Analyze module 
+In the analyse module you can explore texts and annotations with queries and visualisations. You will have the query builder on the left side and the visualisation options on the right side. 
+Queries allow you to analyse, explore and evaluate text or annotation data. To execute a query on documents or annotation collections you have three options:
+- Select a predefined query 
+- Use the query builder to create your own query
+- Type in a query directly (if you're familiar with cATMAì's query language)
 
+Once your query has been executed, you can explore your results displayed in a box beneath the query fields wth a headline with the query itself, a timestamp, and the total number of results. 
+
+Another option to explore your query's results is by using the Visualisations. 
