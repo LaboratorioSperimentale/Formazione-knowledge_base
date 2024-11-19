@@ -87,14 +87,14 @@ Queries allow you to analyze, explore and evaluate text or annotation data. To [
 ![alt text](<10 Existing Queries.png>)
 *Fig. 10: Selecting an existing query*
 
-- You can use the **query builder** on the left side of the screen to create your own query. This option is particularly useful when you want to analyze some <ins>particularly detailed data about your text</ins> (for example, the words that appear more than 20 times in your document, how many times a specific word appears, how many time a tag appears etc.). You can build a query based on 5 criteria: by word or phrase pattern, by grade of similarity, by tag, by collocation or by frequency. With this function, CATMA offers you the possibility of creating very complex queries too (for example, how many times a specific word appears next to another word).
+- You can use the **query builder** on the left side of the screen to create your own query. This option is really useful when you want to analyze some <ins>particularly detailed data about your text</ins> (for example, the words that appear more than 20 times in your document, how many times a specific word appears, how many times a tag appears etc.). You can build a query based on 5 criteria: by word or phrase pattern, by grade of similarity, by tag, by collocation or by frequency. With this function, CATMA offers you the possibility of creating very complex queries too (for example, how many times a specific word appears next to another word).
 ![alt text](<12 Build your query.PNG>)
 ![alt text](<13 Query about collocation.PNG>)
 *Fig. 11-12: Build your own query (in this case, I created a query by collocation in order to see how many times the word “he” appears near “has” within a token span of 5).*
 
 - You can **type a query directly**, if you're familiar with the CATMA query language. For example, I might want to see only the words with a frequency above 20. In that case, I should only type “*freq>20*” in the dedicated space.
 
-After choosing a query or creating your own query, the results appear in a box beneath the query fields and headline with the query itself, a timestamp and the total number of results.
+After choosing a query or creating your own query, the results appear in a box beneath the query fields. This box also has headline with the query itself, a timestamp and the total number of results.
 ![alt text](<11 Query Results.PNG>)
 *Fig. 13: Query Results*
 

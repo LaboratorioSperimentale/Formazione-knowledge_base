@@ -77,26 +77,26 @@ Vediamo alcune funzioni importanti di questo modulo:
 - **Commenti**: Un'altra importante funzione è la possibilità di scrivere commenti su un passaggio di testo presente nel documento. Per farlo è necessario semplicemente selezionare il passaggio di testo in questione e cliccare sull'icona del commento che appare.
 
 
-## 7. Analyze Module
-In this section you can explore texts and annotations with **queries** and **visualization options**. You will have the query builder on the left side and the visualization options on the right side.
+## 7. Modulo Analisi
+In questa sezione puoi esplorare i testi e le annotazioni con le **query** e le **opzioni di visualizzazione**. Avrai il query builder sul lato sinistro dello schermo e le opzioni di visualizzazione sul lato destro.
 ![alt text](<9 Analyze Module.PNG>)
 *Fig. 9: CATMA's Analyze Module*
 
-Queries allow you to analyze, explore and evaluate text or annotation data. To [execute a query](https://catma.de/how-to/query-language/) on documents or annotation collections you have three options:
-- You can select a **predefined query**, as displayed below: for example, the “_Wordlist (freq>0)_” query will show all the words of the analysed document whose frequency is greater than zero (so basically you will get all tokens in your text and their corresponding frequencies).
+Le query ti permettono di analizzare, esplorare o valutare dati relativi al testo o alle annotazioni. Per [eseguire una query](https://catma.de/how-to/query-language/) sui documenti o sulle raccolte di annotazioni hai tre opzioni:
+- Puoi selezionare una **query predefinita**, come mostrato nella figura in basso: ad esempio, la query “_Wordlist (freq>0)_” mostrerà tutte le parole del documento analizzato la cui frequenza è superiore a zero (dunque otterrai tutti i token nel tuo testo e le loro frequenze corrispondenti).
 ![alt text](<10 Existing Queries.png>)
 *Fig. 10: Selecting an existing query*
 
-- You can use the **query builder** on the left side of the screen to create your own query. This option is particularly useful when you want to analyze some <ins>particularly detailed data about your text</ins> (for example, the words that appear more than 20 times in your document, how many times a specific word appears, how many time a tag appears etc.). You can build a query based on 5 criteria: by word or phrase pattern, by grade of similarity, by tag, by collocation or by frequency. With this function, CATMA offers you the possibility of creating very complex queries too (for example, how many times a specific word appears next to another word).
+- Puoi usare il **query builder** sul lato sinistro dello schermo per creare la tua query. Questa opzione è particolarmente utile quanto vuoi analizzare dei <ins>dati molto specifici riguardo il tuo testo</ins> (ad esempio: le parole che appaiono più di 20 volte nel tuo documento, quante volte appare una parola specifica, quante volte appare un tag e così via). Puoi usare il query builder sulla base di 5 criteri: per modello di parola o frase, per grado di somiglianza, per tag, per collocazione o per frequenza. Con questa funzione, CATMA offre la possibilità di creare query anche molto complesse (ad esempio, quante volte una specifica parola appare in prossimità di un'altra).
 ![alt text](<12 Build your query.PNG>)
 ![alt text](<13 Query about collocation.PNG>)
-*Fig. 11-12: Build your own query (in this case, I created a query by collocation in order to see how many times the word “he” appears near “has” within a token span of 5).*
+*Fig. 11-12: Crea la tua query (in questo caso, ho creato una query per collocazione in modo da vedere quante volte la parola "he" appare in prossimità della parola "has" in un intervallo di 5 token).*
 
-- You can **type a query directly**, if you're familiar with the CATMA query language. For example, I might want to see only the words with a frequency above 20. In that case, I should only type “*freq>20*” in the dedicated space.
+- Puoi **scrivere direttamente una query**, se hai una certa familiarità con il linguaggio delle query su CATMA. Ad esempio, se si ha intenzione di vedere solo le parole del documento con una frequenza maggiore di 20, bisogna semplicemente digitare “*freq>20*” nell'apposito spazio.
 
-After choosing a query or creating your own query, the results appear in a box beneath the query fields and headline with the query itself, a timestamp and the total number of results.
+Dopo aver scelto una query o averne creata una, i risultati appariranno in un riquadro al di sotto del campo delle query. Tale riquadro ha anche un titolo che contiene la query stessa, un marcatore temporale e il numero totale di risultati.
 ![alt text](<11 Query Results.PNG>)
-*Fig. 13: Query Results*
+*Fig. 13: Risultati della query*
 
 ### 7.1 Visualization Options
 Another option to explore your query results is the visualization. <ins>CATMA offers four different ways to visualize your query results</ins> (which appear on the right part of your screen in this module):
