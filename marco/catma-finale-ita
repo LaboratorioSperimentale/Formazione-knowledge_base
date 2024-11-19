@@ -1,15 +1,138 @@
 # Annotazione e Analisi di Testi Digitali con CATMA 7
 
 ## 1. Introduzione: Cos'è Catma?
-[CATMA](https://catma.de/) (Computer Assisted Text Markup Analysis) is a free **open-source annotation tool**, particolarmente utile per l'annotazione manuale di testi. A differenza di altri tool, CATMA consente anche di lavorare su progetti di gruppo. Texts and annotations can be analyzed using different criteria and queries, such as word frequency, annotation category or proximity between words. 
+[CATMA](https://catma.de/) (Computer Assisted Text Markup Analysis) è un **tool di annotazione gratuito e open-source**, particolarmente utile per l'annotazione manuale di testi. A differenza di altri tool, CATMA consente anche di lavorare su progetti di gruppo. I testi e le annotazioni possono essere analizzati con diversi criteri e query, quali ad esempio la frequenza di una parola, la categoria di annotazione o la prossimità fra parole. 
 ![alt text](<1 Catma Logo.PNG>)
-*Fig. 1: CATMA Logo*
+*Fig. 1: Logo di CATMA*
 
 Il programma è composto da **quattro moduli**, qui brevemente descritti (ma saranno maggiormente approfonditi in seguito):
 
-| Module | Descrizione|
+| Modulo | Descrizione|
 |--------|------------|
-|PROJECT | The place where you manage your project resources|
-| TAGS   | It enables you to add, edit and delete tagsets|
-| ANNOTATE | It allows you to annotate your text, edit and delete annotations |
-| ANALYZE | It offers you the opportunity to analyze your text, but also to do visualization and semi-automatic annotation|
+|PROJECT | La sezione in cui gestisci le risorse del tuo progetto|
+| TAGS   | Consente di aggiungere, modificare o eliminare i tagset|
+| ANNOTATE | Consente di annotare il testo, così come modificare o eliminare le annotazioni|
+| ANALYZE | Permette di analizzare un testo, offre diverse opzioni di visualizzazione e di annotazione semi-automatica|
+
+
+## 2. Registrazione and Log-in
+Anzitutto, bisogna creare il proprio [account CATMA](https://app.catma.de/): puoi scegliere di usare il tuo **account Google** o una **e-mail privata**. Dopo la registrazione verrà inviata una e-mail di verifica all'indirizzo usato in fase di registrazione. Dopo aver verificato l'indirizzo e-mail, sarà possibile completare il profilo scegliendo uno username e una password.
+![alt text](<2 Sign up Options.PNG>)
+*Fig. 2: Opzioni di registrazione su CATMA*
+
+
+## 3. Panoramica Generale
+Una volta effettuato l'accesso, sarà possibile scegliere fra *"Nuovo Progetto"* o *"Unisciti ad un progetto"* (in quest'ultimo caso, il proprietario del progetto dovrà aggiungerti tramite il tuo username o mediante un invito in tempo reale). Sul lato sinistro dello schermo vi è una barra laterale con tutti i moduli precedentemente menzionati, che saranno attivati non appena si sceglie il progetto su cui si vuole lavorare.
+![alt text](<3 Project Overview.PNG>)
+*Fig. 3: Schermata Home di CATMA*
+
+
+## 4. Modulo Progetto
+Una volta selezionato il progetto su cui si vuole lavorare, è possibile entrare nel **Modulo Progetto** (**_Project Module_**). In questa sezione potrai vedere e gestire le diverse parti del tuo progetto, mostrate in riquadri differenti (*Documenti & Annotazioni*, *Tagsets*, *Membri*). 
+![alt text](<4 Project Module.PNG>)
+*Fig. 4: Modulo Progetto di CATMA*
+
+Vediamo le funzioni principali di ciascun riquadro:
+- **Documenti & Annotazioni**: In questo riquadro è possibile caricare testi dal tuo computer o aggiungere un URL (cliccando sul pulsante "+"), così come esportare o eliminare raccolte di annotazioni o documenti. Da questa sezione è anche possibile creare la tua raccolta personale di annotazioni in un progetto di gruppo. <ins>Ricorda che per annotare i documenti bisogna sempre creare prima una raccolta di annotazioni</ins> (che consiste in una sorta di copia del testo da annotare). Le annotazioni su CATMA sono conservate separatamente rispetto al testo originale. Potrai anche vedere quale membro ha creato una determinata risorsa.
+![alt text](<5 Add documents to your project.PNG>)
+*Fig. 5: Aggiungere un nuovo documento su CATMA*
+
+- **Tagsets**: Nel secondo riquadro è possibile vedere quali tagset sono stati creati per un determinato progetto. Da questa sezione puoi creare o eliminare tagset, ma bisogna necessariamente andare nel Modulo Tag per aggiungere dei tag a un tagset esistente. Ciononostante, nel Modulo Progetto è possibile caricare un tagset esistente in formato XML.
+ 
+- **Membri**: In questo riquadro vengono mostrati i membri del progetto. Se il proprio ruolo lo consente, è possibile aggiungere nuovi membri al progetto: lo si può fare manualmente (tramite lo username) o tramite invito in tempo reale. Se si sceglie quest'ultima opzione, apparirà un pop-up con un codice; tutte le persone che hanno accesso a tale codice potranno unirsi al progetto. Il codice sarà valido finché si tiene la finestra pop-up aperta, dopodiché non sarà più valido. Inoltre, da questo riquadro è possibile eliminare dei membri o modificarne il ruolo.
+
+### 4.1 Membri e Ruoli
+Va tenuto a mente che le azioni che si possono svolgere su CATMA dipendono dal proprio ruolo nel progetto (che viene mostrato nel riquadro "Membri" accanto al proprio username): ogni ruolo corrisponde a [permessi specifici](https://catma.de/documentation/roles-and-permissions/). Ad esempio:
+- **Proprietario**: Il proprietario ha ogni diritto possibile sul progetto, come ad esempio creare/eliminare documenti, tagset, raccolte di annotazioni o aggiungere/rimuovere membri dal progetto.
+- **Partner**: Un partner ha quasi gli stessi diritti del proprietario, fatta eccezione per alcuni aspetti: ad esempio, non può aggiungere o rimuovere membri, né tantomeno può eliminare il progetto.
+- **Osservatore**: Un osservatore può solo visionare i documenti, i tagset o le raccolte di annotazioni, ma non possono modificarli o aggiungerli in nessun modo.
+
+### 4.2 Tasti "_Sync_" e "_Switch View_"
+Nell'angolo in alto a destra dello schermo è possibile trovare due importanti funzioni di CATMA:
+- **Tasto “_Sync_”**: In un lavoro di gruppo, questo pulsante consente a ogni membro del team di sincronizzare i propri progressi sul progetto, in modo da condividere i propri documenti caricati, le proprie annotazioni o i nuovi tag (in altre parole, tutto ciò che è stato fatto dall'ultima sincronizzazione). 
+- **Tasto “_Switch View_”**: Questo pulsante  consente di alternare tra due modalità di visualizzazione, che sono "_sincronizza_" (che mostra lo stato attuale di tutto il lavoro che è stato integrato più tutto ciò che hai fatto in aggiunta a quello, come individuo) e "_ultimo contributo_" (il progetto entra in uno stato di sola lettura che ti permette di vedere cosa hanno fatto gli altri membri)
+
+
+## 5. Modulo Tag
+Una volta caricate le proprie risorse, è possibile creare un **tagset** (ossia un insieme di tag con cui puoi lavorare sul tuo progetto). 
+![alt text](<6 Tags Module.PNG>)
+*Fig. 6: Modulo Tag di CATMA*
+
+Cliccando sul pulsante “+” nella parte in alto a destra dello schermo, puoi creare un **nuovo tagset** o aggiungere **nuovi tag** a un tagset esistente (per fare ciò, bisogna prima selezionare il tagset in questione). Mentre si crea un tag, è possibile anche specificare le sue proprietà in modo da qualificarlo meglio. 
+![alt text](<7 Add tag.PNG>)
+*Fig. 7: Aggiungere un nuovo tag a un tagset esistente*
+
+CATMA offre anche la possibilità di creare una gerarchia fra i tag, creando dunque dei **sotto-tag** (vale a dire un tag che è subordinato ad un altro tag per qualificarlo meglio). Esattamente come per i tag, nella creazione dei sotto-tag è possibile aggiungere proprietà e valori.
+
+## 6. Modulo Annotazione
+Una volta che il tuo progetto contiene almeno un documento, una raccolta di annotazioni e un tagset, puoi cominciare ad annotare un documento in questo modulo. Per fare ciò, <ins>bisogna selezionare una raccolta di annotazioni e il tagset con cui si vuole lavorare</ins>. Mentre lavori in questa sezione, avrai il testo sulla parte sinistra dello schermo e il tagset che hai scelto sulla parte destra.
+![alt text](<8 Annotation Module.PNG>)
+*Fig. 8: Modulo Annotazione di CATMA*
+
+Se si vuole annotare una parola o un passaggio di testo con un tag, bisogna semplicemente selezionare la parola o il passaggio in questione e premere il tasto destro del mouse: in questo modo apparirà il tagset che hai selezionato, affinché tu possa scegliere il tag che preferisci.
+
+Vediamo alcune funzioni importanti di questo modulo:
+- **Passaggi Discontinui**: Cliccando sull'icona a forma di libro nell'angolo in basso a sinistra e selezionando i passaggi del testo che ti interessano, potrai aggiungere una singola annotazione a parole o passaggi discontinui nel documento.
+- **Overlapping tags**: Puoi anche applicare tag diversi ad uno stesso passaggio di testo.
+- **Commenti**: Un'altra importante funzione è la possibilità di scrivere commenti su un passaggio di testo presente nel documento. Per farlo è necessario semplicemente selezionare il passaggio di testo in questione e cliccare sull'icona del commento che appare.
+
+
+## 7. Analyze Module
+In this section you can explore texts and annotations with **queries** and **visualization options**. You will have the query builder on the left side and the visualization options on the right side.
+![alt text](<9 Analyze Module.PNG>)
+*Fig. 9: CATMA's Analyze Module*
+
+Queries allow you to analyze, explore and evaluate text or annotation data. To [execute a query](https://catma.de/how-to/query-language/) on documents or annotation collections you have three options:
+- You can select a **predefined query**, as displayed below: for example, the “_Wordlist (freq>0)_” query will show all the words of the analysed document whose frequency is greater than zero (so basically you will get all tokens in your text and their corresponding frequencies).
+![alt text](<10 Existing Queries.png>)
+*Fig. 10: Selecting an existing query*
+
+- You can use the **query builder** on the left side of the screen to create your own query. This option is particularly useful when you want to analyze some <ins>particularly detailed data about your text</ins> (for example, the words that appear more than 20 times in your document, how many times a specific word appears, how many time a tag appears etc.). You can build a query based on 5 criteria: by word or phrase pattern, by grade of similarity, by tag, by collocation or by frequency. With this function, CATMA offers you the possibility of creating very complex queries too (for example, how many times a specific word appears next to another word).
+![alt text](<12 Build your query.PNG>)
+![alt text](<13 Query about collocation.PNG>)
+*Fig. 11-12: Build your own query (in this case, I created a query by collocation in order to see how many times the word “he” appears near “has” within a token span of 5).*
+
+- You can **type a query directly**, if you're familiar with the CATMA query language. For example, I might want to see only the words with a frequency above 20. In that case, I should only type “*freq>20*” in the dedicated space.
+
+After choosing a query or creating your own query, the results appear in a box beneath the query fields and headline with the query itself, a timestamp and the total number of results.
+![alt text](<11 Query Results.PNG>)
+*Fig. 13: Query Results*
+
+### 7.1 Visualization Options
+Another option to explore your query results is the visualization. <ins>CATMA offers four different ways to visualize your query results</ins> (which appear on the right part of your screen in this module):
+- **KeyWord in Context (KWIC) visualization**: This option shows your results in their textual context (both left context and right context) in the form of a table. By double-clicking on a line in the KWIC table, you can jump to the Annotate Module to that specific passage. You can also use the KWIC visualization to create annotations semi-automatically (which will be discussed in greater detail later). Make sure you select the right query from the left part of your screen.
+![alt text](<14 KeyWord in Context.PNG>)
+*Fig. 14: KWIC Visualization*
+
+- **Distribution visualization**: It shows the distribution of query results across the text. For example, you can create your own query (maybe about the occurrences of a specific word or a tag) and see how many times these entities appear in the text with a graph. CATMA also allows you to save the graph as SVG or PNG.
+![alt text](<15 Distribution Graph.PNG>)
+*Fig. 15: Distribution Visualization*
+
+- **Wordcloud visualization**: The higher the frequency of the word in your document, the larger it appears in the word cloud. Just like the previous point, you can save the image as SVG or as PNG. 
+![alt text](<16 Wordcloud.PNG>)
+*Fig. 16: Wordcloud Visualization*
+
+- **Doubletree visualization**: It displays the keyword and context results as a browsable tree showing both the preceding and following context of one particular word. The DoubleTree can also unfold, so that you can explore more and more contexts on both sides.
+![alt text](<17 Doubletree.PNG>)
+*Fig. 17: Doubletree Visualization*
+
+### 7.2 Semi-Automatic Annotation
+<p>One last interesting feature in the Analyze Module is the semi-automatic annotation. Let's imagine I want to tag all the occurrences of a specific word: if there are many occurrences, doing this manually would take a lot of time. This is why on CATMA you can do this semi-automatically.</p> 
+First of all, you need to create a KWIC visualization window and select the query that allows you to see all the occurrences of the word you want to tag. After selecting the results you want to display on the KWIC visualization, you need to click on the 3-rows button (in the top-left corner of your KWIC visualization window), which allows you to choose the rows you want to select: you can either choose all of the rows or just some of them. Now you just need to click on the three-dot button (in the top-right corner of your KWIC visualization window) and click on “Annotate Selected Rows”, which allows you to choose the tag you want. 
+
+![alt text](<18 Semi Automatic Annotations.PNG>)
+![alt text](<19 Semi Automatic Annotations Add Tag.PNG>)
+*Fig. 18-19: Creating semi-automatic annotations and selecting a tag*
+
+Finally, you will be asked to select one collection per document. Once you click on finish, your semi-automatic annotation is finished: your keywords are now annotated with the tag you have chosen.
+![alt text](<20 Semi Automatic Annotations Select Annotation Collection.PNG>)
+*Fig. 20: Selecting an annotation collection while creating semi-automatic annotations*
+
+
+## 8. Export and Further Exploration
+If you will want to use your results in an essay or presentation, you can export and download your data on CATMA. Here you can see what is the section you have to go to depending on what you want to download: 
+- **Export annotations**: Project Module 
+  (available in .txt, .xml and .csv)
+- **Export query results**: Analyze Module (available in .txt, .xml and .csv)
+- **Export visualization options**: Analyze Module 
+(The Wordcloud and the Distribution Graph are available in .svg and .png, whereas the KWIC Visualization is available in .csv).
