@@ -98,35 +98,35 @@ Dopo aver scelto una query o averne creata una, i risultati appariranno in un ri
 ![alt text](<11 Query Results.PNG>)
 *Fig. 13: Risultati della query*
 
-### 7.1 Visualization Options
-Another option to explore your query results is the visualization. <ins>CATMA offers four different ways to visualize your query results</ins> (which appear on the right part of your screen in this module):
-- **KeyWord in Context (KWIC) visualization**: This option shows your results in their textual context (both left context and right context) in the form of a table. By double-clicking on a line in the KWIC table, you can jump to the Annotate Module to that specific passage. You can also use the KWIC visualization to create annotations semi-automatically (which will be discussed in greater detail later). Make sure you select the right query from the left part of your screen.
+### 7.1 Opzioni di Visualizzazione
+<ins>CATMA offre quattro diverse possibilità di visualizzazione per i risultati della tua query</ins> (che appaiono sul lato destro dello schermo in questo modulo):
+- **Visualizzazione KeyWord in Context (KWIC)**: Quest'opzione mostra i tuoi risultati nel loro contesto testuale (sia a destra che a sinistra) sotto forma di tabella. Cliccando due volte su una riga della tabella KWIC, puoi passare direttamente al Modulo Annotazione per vedere quel passaggio specifico. Puoi anche usare la visualizzazione KWIC per creare annotazioni semi-automaticamente (ne parleremo più nel dettaglio in seguito). Assicurati di selezionare la query esatta sul lato sinistro dello schermo.
 ![alt text](<14 KeyWord in Context.PNG>)
-*Fig. 14: KWIC Visualization*
+*Fig. 14: Visualizzazione KWIC*
 
-- **Distribution visualization**: It shows the distribution of query results across the text. For example, you can create your own query (maybe about the occurrences of a specific word or a tag) and see how many times these entities appear in the text with a graph. CATMA also allows you to save the graph as SVG or PNG.
+- **Visualizzazione di Distribuzione**: è un grafico che mostra la distribuzione dei risultati della query attraverso il testo. Per esempio, puoi creare la tua query (magari riguardo le occorrenze di una specifica parola o di un tag) e vedere con un grafico quante volte tali entità appaiono nel testo. CATMA permette anche di salvare il grafico in formato SVG o PNG.
 ![alt text](<15 Distribution Graph.PNG>)
-*Fig. 15: Distribution Visualization*
+*Fig. 15: Visualizzazione di Distribuzione*
 
-- **Wordcloud visualization**: The higher the frequency of the word in your document, the larger it appears in the word cloud. Just like the previous point, you can save the image as SVG or as PNG. 
+- **Visualizzazione Wordcloud**: Quanto più alta è la frequenza della parola nel documento, tanto più grande apparirà nel Wordclous. Proprio come nel punto precedente, puoi salvare l'immagine in formato SVG o PNG. 
 ![alt text](<16 Wordcloud.PNG>)
-*Fig. 16: Wordcloud Visualization*
+*Fig. 16: Visualizzazione Wordcloud*
 
-- **Doubletree visualization**: It displays the keyword and context results as a browsable tree showing both the preceding and following context of one particular word. The DoubleTree can also unfold, so that you can explore more and more contexts on both sides.
+- **Visualizzazione Doubletree**: Mostra la parola chiave e il suo contesto come un albero, i cui rami corrispondono al contesto della parola sia a destra che a sinistra. Il Doubletree può anche dispiegarsi, mostrando più contesto su entrambi i lati della parola.
 ![alt text](<17 Doubletree.PNG>)
-*Fig. 17: Doubletree Visualization*
+*Fig. 17: Visualizzazione Doubletree*
 
-### 7.2 Semi-Automatic Annotation
-<p>One last interesting feature in the Analyze Module is the semi-automatic annotation. Let's imagine I want to tag all the occurrences of a specific word: if there are many occurrences, doing this manually would take a lot of time. This is why on CATMA you can do this semi-automatically.</p> 
-First of all, you need to create a KWIC visualization window and select the query that allows you to see all the occurrences of the word you want to tag. After selecting the results you want to display on the KWIC visualization, you need to click on the 3-rows button (in the top-left corner of your KWIC visualization window), which allows you to choose the rows you want to select: you can either choose all of the rows or just some of them. Now you just need to click on the three-dot button (in the top-right corner of your KWIC visualization window) and click on “Annotate Selected Rows”, which allows you to choose the tag you want. 
+### 7.2 Annotazione Semi-Automatica
+<p>Un'ultima funzione interessante nel Modulo Analisi è l'annotazione semi-automatica. Immaginiamo di voler taggare tutte le occorrenze di una specifica parola: se le occorrenze sono molte, farlo manualmente richiederebbe molto tempo. Questo è il motivo per cui su CATMA puoi farlo semi-automaticamente.</p> 
+Anzitutto, bisogna creare una finestra di visualizzazione KWIC e selezionare la query che ti permette di vedere tutte le occorrenze della parola che hai intenzione di taggare. Dopo aver selezionato i risultati che vuoi mostrare tramite la visualizzazione KWIC, bisogna cliccare sul pulsante con le tre righe (nell'angolo in alto a sinistra della tua finestra di visualizzazione KWIC), il che ti permette di selezionare le righe che vuoi selezionare: puoi selezionarle tutte o anche solo alcune di esse. A tal punto bisogna semplicemente cliccare sul pulsante con i tre punti (nell'angolo in alto a destra della finestra di visualizzazione KWIC) e cliccare su "Annota Righe Selezionate", che ti permette di scegliere il tag che preferisci. 
 
 ![alt text](<18 Semi Automatic Annotations.PNG>)
 ![alt text](<19 Semi Automatic Annotations Add Tag.PNG>)
-*Fig. 18-19: Creating semi-automatic annotations and selecting a tag*
+*Fig. 18-19: Creare annotazioni semi-automatiche e scegliere un tag*
 
-Finally, you will be asked to select one collection per document. Once you click on finish, your semi-automatic annotation is finished: your keywords are now annotated with the tag you have chosen.
+Infine, ti verrà chiesto di scegliere una raccolta di annotazioni per documento. Dopo aver confermato, la tua annotazione semi-automatica è completata: le parole selezionate risultano ora annotate col tag che hai scelto.
 ![alt text](<20 Semi Automatic Annotations Select Annotation Collection.PNG>)
-*Fig. 20: Selecting an annotation collection while creating semi-automatic annotations*
+*Fig. 20: Selezionare una raccolta di annotazioni durante la creazione di annotazioni semi-automatiche*
 
 
 ## 8. Export and Further Exploration
