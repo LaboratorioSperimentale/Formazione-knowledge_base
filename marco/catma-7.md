@@ -1,5 +1,13 @@
 # Digital Text Annotation and Analysis with Catma 7
 
+## Index
+- Introduction: What is Catma?
+- 1. Registration and Log-In
+- 2. Project Module
+- 3. Tags Module
+- 4. Annotate Module
+- 5. Analyze Module
+
 ## Introduction: What is Catma?
 **Catma** (Computer Assisted Text Markup Analysis) is a free **open source annotation tool**, particularly useful for manual text annotation. Unlike other tools, Catma supports collaborative work as well. Texts and annotations can be analyzed using different criteria and queries, such as word frequency, annotation category or proximity between words.
 
@@ -27,7 +35,7 @@ In collaborative projects, the **switch view button** allows to switch between t
 Once you have uploaded your resources, presumably you also want to create a **tagset** (the tags you are going to work with on your project). After creating a tag, you can also specify its properties in order to further qualify it.
 Catma also offers you the possibility to create **sub-tags** (i.e. a tag which is subordinated to another tag in order to qualify it better).
 
-## 4. Annotate Project
+## 4. Annotate Module
 In this module, after selecting the annotation collection and the tag set you want to work with, you can start **annotating a document**. While working in this section you will have the text on the left side of your screen and the tagset you have chosen on the right side.  
 If you want to  add a tag you just need to select the text passage and press the right button of your mouse: in this way, the tagset you have chosen will appear, so that you can choose the tag you want. 
 Let's see some important funtions of this module:
@@ -37,7 +45,7 @@ Let's see some important funtions of this module:
 
 ## 5. Analyze Module
 In this section you can explore texts and annotations with **queries** and **visualization options**.
-Queries allow you to analyze, explore and evaluate text or annotation data. To execute a query on documents or annotation collections you have three options:
+Queries allow you to analyze, explore and evaluate text or annotation data. To [execute a query](https://catma.de/how-to/query-language/) on documents or annotation collections you have three options:
 - You can either select a **predefined query**; 
 - You can use the **query builder** on the left side of the screen to create your own query. This option is particularly useful when you want to analyze some particularly detailed data about your text (e.g. the words that appear more than 20 times in your document, how many times a specific word appears, how many time a tag appears etc.). You can build a query based on 5 criteria: by word or phrase pattern, by grade of similarity, by tag, by collocation or by frequency. With this function, Cadma offers you the possibility of creating very complex queries too (for example, how many times a specific word appears next to another word).
 - You can **type a query** directly, if you're familiar with the Catma query language.
