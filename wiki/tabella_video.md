@@ -44,3 +44,7 @@ E + G     | 27 mag 2022         | **flag**      | Analisi dei dati linguistici c
      
 
 ----------| 19 dic 2019         | **flag**      | Multimodal Analysis Video Workshop 					 | **Autore** | **min** | **abstract** | **University**	| **tag** | **materiale** | **note** | **link**
+
+
+
+--
