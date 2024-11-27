@@ -4,5 +4,6 @@ plugins:
 
 title: Wiki del Laboratorio Sperimentale
 description: [A short description of your site's purpose]
+logo: imgs/logo_lab.png
 
 show_downloads: false

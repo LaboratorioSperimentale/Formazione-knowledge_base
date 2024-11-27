@@ -1,0 +1,155 @@
+<h1 id="keywords">KEYWORDS</h1>
+<ul>
+  <li>Progetti Collaborativi, Condivisione, Editor di Testo, Versioning, Formato Markdown, Github, Client Git, Visual Studio Code</li>
+</ul>
+
+<h1 id="3-strumenti-fondamentali-per-progetti-collaborativi">3 STRUMENTI FONDAMENTALI PER PROGETTI COLLABORATIVI</h1>
+<p>Un progetto collaborativo presuppone, innanzitutto, di poter condividere risorse (files). A tal fine esistono strumenti che consentono la condivisione in maniera efficiente e affidabile.</p>
+
+<p>Una soluzione possibile si basa su un repository centralizzato Gitbub il quale, oltre alla condivisione, fornisce tanti altri servizi fra cui il “versioning”: è possibile cioè avere delle “fotografie” temporali del contenuto di un file. Queste “fotografie” consentono, come fossero dei backup, di riprendere, in qualunque momento, una versione specifica del file ad un istante temporale specifico.</p>
+
+<p>Per realizzare quanto sopra (e molto molto altro) occorre dotarsi di 3 strumenti:</p>
+<ol>
+  <li>un account su Github</li>
+  <li>un editor di testo evoluto/estendibile da installare sul nostro computer (es: Visual Studio Code)</li>
+  <li>un client Github da installare sul nostro computer</li>
+</ol>
+
+<p>Al fine di arricchire i file di testo di elementi di stile/formattazione (titoli, sottotitoli, elenchi, tabelle, link) si utilizzerà il formato testuale denominato “markdown” (estensione tipica di file: .md).</p>
+
+<p>Ultimo, ma non meno importante, giova sottolineare che l’architettura sopra descritta è “indifferente” al sistema operativo utilizzato nel senso che è realizzabile su tutti i principali sistemi operativi (Windows, Mac, Linux) ed è free, nessuno dei componenti citati richiede l’acquisto.</p>
+
+<h1 id="creazione-account-github">CREAZIONE ACCOUNT GITHUB</h1>
+<ul>
+  <li>Andare sul sito https://github.com/ e creare un proprio <strong>account github</strong> (“Sign up for Github”)</li>
+</ul>
+
+<p><img src="attachment/9066b619504b39fb26cf907c1b632f80.png" alt="" /></p>
+
+<h1 id="installazione-editor-di-testo-visual-studio-code">INSTALLAZIONE EDITOR DI TESTO, VISUAL STUDIO CODE</h1>
+<ul>
+  <li>scaricare ed installare la versione di Visual Studio Code adatta al proprio sistema operativo da:
+    <ul>
+      <li>https://code.visualstudio.com/Download</li>
+    </ul>
+  </li>
+  <li>dopo aver scaricato il software effettuare l’usuale doppio-click col mouse sul file eseguibile (<strong>Windows</strong>) normalmente disponibile nella cartella <strong>Download</strong></li>
+</ul>
+
+<p><img src="attachment/c2d15c1f0ada905c71a914894734702f.png" alt="" /></p>
+<h1 id="installazione-client-git">INSTALLAZIONE CLIENT GIT</h1>
+<ul>
+  <li>scaricare ed installare la versione di <strong>Git</strong> adatta al proprio sistema operativo da:
+    <ul>
+      <li>https://git-scm.com/downloads</li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li>dopo aver scaricato il software effettuare l’usuale doppio-click col mouse sul file eseguibile (<strong>Windows</strong>) normalmente disponibile nella cartella <strong>Download</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="attachment/b427e1ab5bdbd8f0d4b6eb818374f700.png" alt="" /></p>
+
+<h1 id="connessione-di-visual-studio-code-a-github-viene-fatta-una-sola-volta-poi-resta-attiva-fino-a-disconnessione-esplicita">CONNESSIONE DI VISUAL STUDIO CODE A GITHUB (viene fatta una sola volta poi resta attiva… fino a disconnessione esplicita)</h1>
+<ul>
+  <li>Vogliamo consentire a Visual Studio Code di interagire col repository Github, utilizzando le utility (comandi) che il pacchetto Client Git ci mette a disposizione.</li>
+</ul>
+
+<p><img src="attachment/852ef0ea433f7a4853090b9481038566.png" alt="" /></p>
+
+<p><img src="attachment/38b788d02d7aadae805968616d65ef56.png" alt="" /></p>
+
+<p><img src="attachment/8bdc382bc24df3089033315274182b04.png" alt="" /></p>
+<ul>
+  <li>Viene richiamata la pagina web di login del browser di default
+<img src="attachment/c623d5faf7ed1728f9b8fea02034d730.png" alt="" /></li>
+</ul>
+
+<h1 id="vogliamo-ora-clonare-la-cartella-presente-su-github-in-locale">VOGLIAMO ORA CLONARE LA CARTELLA PRESENTE SU GITHUB IN LOCALE</h1>
+<ol>
+  <li>Accediamo al nostro github (dopo che abbiamo accettato l’invito via mail conseguente a qualcuno che ci condivide una cartella github!) e andiamo nella cartella condivisa (click sul pulsante CODE -verde- e copiamo la path HTTPS, che è il link alla specifica cartella “formazione-knowledge base”):
+<img src="attachment/29a0caf14e22512fc5c0c56562035928.png" alt="" /></li>
+  <li>Da Visual Studio Code apriamo un terminale: menu Terminal &gt; New Terminal 
+<img src="attachment/f80cd989ca2923b49bd60bd49bca0525.png" alt="" /></li>
+  <li>Ora vogliamo clonare il repository github, che non è una semplice cartella poiché contiene una serie di elementi che consentono poi di ereditare tutte le funzionalità proprie di github (fra cui il versioning!!):
+Nel terminale apriamo un <strong>githbash (o bash)</strong> che ora disponibile in VSC grazie all’installazione del componente <strong>Git Client</strong>.
+    <ul>
+      <li>sceliamo gitbash o bash:
+<img src="attachment/8fe2346357bf4a98a44ee10b981e7876.png" alt="" />
+     - ora è visibile bash (a fianco della tendina):
+<img src="attachment/80f5b305bc7066536dd995f6e179d4fc.png" alt="" />
+     - digitiamo il comando <strong>git clone</strong> + spazio poi la path https:
+<img src="attachment/48cbdc5156ddf3dcb8ddf4af45d57282.png" alt="" />
+     - quindi ci viene richiesto di attivare il processo di <strong>sign in usando GitHub</strong>
+<img src="attachment/99bc91d022c5579ee53565ca78458278.png" alt="" /></li>
+    </ul>
+  </li>
+</ol>
+
+<ul>
+  <li>procediamo; quando diamo “allow” il processo di sign in resta in attesa in VSC che sia fatto sul browser di default (che viene aperto). Se siamo già loggati la procedura di cloning si avvierà… altrimenti procediamo alla login:
+<img src="attachment/724d766d744eb873f5da3ca36e046904.png" alt="" /></li>
+</ul>
+
+<p><img src="attachment/fc0c6413a0a97bfccaf5d1d25791eb5f.png" alt="" /></p>
+
+<p><img src="attachment/f166a603033caef3533b32f1fa9f073a.png" alt="" /></p>
+<ul>
+  <li>Al termine il browser ci chiede autorizzazione ad aprire l’app che deve eseguire il cloning… clicchiamo open:
+<img src="attachment/3d97b37adcaebf48b9df7d2cd6b998cb.png" alt="" /></li>
+  <li>la procedura di cloning si conclude nel terminale aperto in VSC:
+<img src="attachment/04d4231cba5e169e66e325844bf0900b.png" alt="" /></li>
+  <li>notiamo, alla terza riga:
+    <ul>
+      <li><strong>Cloning into <em>‘Formazione-knowledge_base’</em></strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="apertura-e-visualizzazione-della-cartella-github-clonata-ora-disponibile-in-locale">APERTURA E VISUALIZZAZIONE DELLA CARTELLA GITHUB CLONATA (ORA DISPONIBILE IN LOCALE)</h1>
+<ul>
+  <li>per aprire il clone locale la dobbiamo trovare entro il nostro file system</li>
+  <li>nel terminale digitiamo: <strong>pwd</strong>. Questo comando da come risposta dove ci troviamo</li>
+  <li>nel mio caso mi restituisce la mia home: /home/car 
+<img src="attachment/99a6e48e1ddaeed35be78a0eca1f89f4.png" alt="" /></li>
+  <li>torniamo a VSC e apriamola: menù File &gt; Open Folder e identifichiamo la cartella nell’esplora risorse che viene aperto.
+<img src="attachment/2d02646df8bda44a58f66e056be12b4c.png" alt="" /></li>
+  <li>facciamo open (nell’immagine in alto a destra):
+<img src="attachment/234d16f7c372a5461156a57e465610c1.png" alt="" /></li>
+  <li>ultimo step… di sicurezza: conosciamo chi è che ha creato la cartella e possiamo fidarci dell’autore (nota che durante il cloning TUTTO quello che è nel repository viene copiato in locale… occorre sapere chi è che ha condiviso cosa!!!)
+<img src="attachment/e171ca628a1abe3ab5222d7cd01d8732.png" alt="" /></li>
+</ul>
+
+<h1 id="creazione-di-file-in-locale-e-copia-upload-nel-repository-comune-github">CREAZIONE DI FILE IN LOCALE E COPIA (UPLOAD) NEL REPOSITORY COMUNE (GITHUB)</h1>
+
+<ul>
+  <li>procedo creando una cartella denominata Carmelo e ci creo all’interno un file prova.md:
+<img src="attachment/33aa92711f361af2c8c16edb9c096981.png" alt="" />
+<img src="attachment/1c338eed80d053a2954ef633bbceee2d.png" alt="" /></li>
+  <li>passo a <strong>SOURCE CONTROL</strong> (nota che già appare “1”, cioè c’è una modifica che può/richiede di essere committata):
+<img src="attachment/9105978cfc1dacb8dd8f478094e2eb5b.png" alt="" /></li>
+  <li>quello che può essere committato appare anche ora (nel source control);
+<img src="attachment/0de6b3a0e7911e38aba85ac84518c65c.png" alt="" />
+<img src="attachment/207f64f90a01792cbf3d7c024e877b4d.png" alt="" /></li>
+  <li>prima di eseguire il commit assegno un nome e premo invio:
+<img src="attachment/8a7ddfcfb6e1a0aad81bdc2a7bae087c.png" alt="" /></li>
+  <li></li>
+  <li>
+    <p>se ottengo una richiesta posso anche ottemperare, altrimenti procedo otre(vedi:https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup):
+<img src="attachment/ad44e836743c2c288c9244c02c16a249.png" alt="" />
+<img src="attachment/95ffd3c8e74e852d8f4aa1e3d9b3f0ef.png" alt="" /></p>
+  </li>
+  <li>Ora il file è entrato nel repository (da questo momento il file eredita tutte le funzionalità proprie di github, fra qui il source control)… ma è presente solo in locale… gli altri utenti non lo vedono. Procedo col <strong>Sync Changes</strong></li>
+</ul>
+
+<p><img src="attachment/6c910dd0c54a8490a943bab5875921d5.png" alt="" /></p>
+
+<p><img src="attachment/dedb39c21c0192b2aea9707f40a70202.png" alt="" /></p>
+
+<h1 id="come-appare-ora-il-repository">COME APPARE ORA IL REPOSITORY</h1>
+<p><img src="attachment/bfdd9289116d4b8e413f68863303012d.png" alt="" />
+<img src="attachment/537ee3b361a2fe98c7683c6318d892b2.png" alt="" /></p>
+
