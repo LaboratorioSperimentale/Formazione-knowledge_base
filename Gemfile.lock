@@ -79,6 +79,8 @@ GEM
     jekyll-github-metadata (2.16.1)
       jekyll (>= 3.4, < 5.0)
       octokit (>= 4, < 7, != 4.4.0)
+    jekyll-gitlab-metadata (0.8.0)
+      jekyll (~> 3.6)
     jekyll-mentions (1.6.0)
       html-pipeline (~> 2.3)
       jekyll (>= 3.7, < 5.0)
@@ -172,6 +174,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-gist
   jekyll-github-metadata
+  jekyll-gitlab-metadata
   jekyll-mentions
   jekyll-optional-front-matter
   jekyll-paginate
