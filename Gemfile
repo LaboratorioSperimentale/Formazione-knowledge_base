@@ -11,7 +11,7 @@ gem 'jekyll-remote-theme', '~> 0.4.3'
 # gem "jekyll-optional-front-matter"
 # gem "jekyll-readme-index"
 # gem "jekyll-redirect-from"
-# gem "jekyll-seo-tag"
+gem "jekyll-seo-tag"
 # gem "jekyll-sitemap"
 # gem "jekyll-relative-links"
 # gem "jemoji"
