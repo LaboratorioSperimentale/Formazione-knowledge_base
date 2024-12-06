@@ -1,91 +1,130 @@
-# Il corpus TIGR: un corpus video per lo studio dell'italiano parlato 
+# Il corpus TIGR: raccolta, trascrizione, trattamento e gestione di dati videoregistrati per lo studio dell'italiano parlato 
 ## Introduzione al corpus TIGR
-Il corpus d'italiano parlato TIGR è stato raccolto negli anni 2021 e 2022  nei cantoni svizzeri Ticino e Grigioni (da qui il nome) e nasce all'interno di un progetto di ricerca condotto dall'Università della Svizzera Italiana (USI), **InfinIta - La categorizzazione delle fonti di informazione nell'interazione faccia a faccia. Una indagine basata sul corpus di italiano parlato TIGR** (per l'abstract e le pubblicazioni scientifiche: https://data.snf.ch/grants/grant/192771). Il progetto, finanziato dalla Swiss National Science Foundation (SNSF), terminerà il 31 agosto 2025.   
-Come si legge sul sito dell'USI (E QUI METTEREI IL COLLEGAMENTO IPERTESTUALE AL SITO), il corpus TIGR "documenta interazioni faccia a faccia in situazioni non sperimentali di vario genere: conversazioni a tavola, preparazione di cibo, lezioni e incontri di tutoring, interviste, per 23,5 ore in totale".
+Il corpus d'italiano parlato TIGR è stato raccolto negli anni 2021 e 2022  nei cantoni svizzeri Ticino e Grigioni (da qui il nome) e nasce all'interno di un progetto di ricerca condotto dall'Università della Svizzera Italiana (USI), **InfinIta - La categorizzazione delle fonti di informazione nell'interazione faccia a faccia. Una indagine basata sul corpus di italiano parlato TIGR** (per l'abstract e le pubblicazioni scientifiche: https://data.snf.ch/grants/grant/192771), il quale terminerà il 31 agosto 2025. Le domande di ricerca a cui si è cercato di rispondere (le metto qui perché di fatto parla di InfinIta).  
+Come si legge sul [sito dell'USI](https://sharetigr.usi.ch/it/st/sharetigr), il corpus TIGR "contiene non solo registrazioni audio, trascrizioni e dati sociolinguistici, ma anche registrazioni video".   
+Per condividere il corpus con la comunità scientifica è nato **ShareTIGR**, un progetto specificamente dedicato agli _open research data_ (ORD). Al momento, però, non è ancora possibile accedere al corpus.  
 
-Per condividere il corpus con la comunità scientifica secondo i principi FAIR è nato [**ShareTIGR**](https://sharetigr.usi.ch/it/news/feeds/37644), un progetto specificamente dedicato agli _open research data_ (ORD). Al momento, si sta lavorando per rendere il corpus accessibile ad altri ricercatori sul Language Repository of Switzerland LaRS, una sezione del repositorio SWISSUbase.  
-Dopo aver depositato il corpus sul repositorio, si vorrebbe poi inserire il TIGR su una piattaforma di consultazione e analisi online.   
-GUARDA L'ABSTRACT PRESO DA SHAREPOINT PER L'INTRODUZIONE
 
-## Sul progetto InfinIta: perché è stato creato il corpus TIGR?
-
-### Le domande di ricerca 
+## Perché è stato creato il corpus TIGR?
 
 Il corpus TIGR è nato per cercare di rispondere a sostanzialmente tre domande che riguardano la categorizzazione delle fonti di informazione nell'italiano parlato: 
+ 
+fin dall'inizio l'intento era quello di mettere a disposizione i dati. dovevamo preoccuparci anche dell'utilizzo più ampio di questi dati. alcune scelte sono dovute alla volontà di renderli utili anche ad altri. -> DOVE LO METTO?
+
+
 
 1. A livello semiotico, attraverso quali risorse (indicatori e costruzioni di evidenzialità, strategie discorsive, strategie multimodali, implicature) viene comunicata la fonte dell'informazione?
    
-2. A livello semantico, quali distinzioni relative alla fonte dell'informazione diventano rilevanti? Categorizzazioni specifiche, ad esempio: 'Il presidente non è in forma. _Lo ha detto il suo portavoce durante la conferenza stampa di ieri_' / '_È evidente dal modo in cui si è comportato durante il dibattito televisivo di ieri_' rispetto a categorizzazioni generiche, ad esempio: '_Ho sentito dire che_/ _A quanto pare_ il presidente non è in forma'
+2. A livello semantico, quali distinzioni relative alla fonte dell'informazione diventano rilevanti? Categorizzazioni specifiche, ad esempio: 'Il presidente non è in forma. _Lo ha detto il suo portavoce durante la conferenza stampa di ieri_' / '_È evidente dal modo in cui si è comportato durante il dibattito televisivo di ieri_' rispetto a categorizzazioni generiche, ad esempio: '_Ho sentito dire_ / _A quanto pare_ il presidente non è in forma'
    
 3. A livello pragmatico, come la categorizzazione delle fonti di informazione contribuisce al posizionamento epistemico?  
 
-### Perché un  <ins>corpus video</ins> dell'italiano parlato?
-
-Sono diversi i motivi che hanno spinto alla creazione di un corpus video: 
-
-1. Il video consente lo studio dell'uso integrato di mezzi verbali, mezzi multimodali e risorse situazionali (oggetti a disposizione in una situazione che diventano funzionali alla comunicazione). Nello specifico, la disponibilità di dati videoregistrati permette di:
  
-     - Individuare le **fonti in situ**, cioè le fonti delle informazioni aquisite durante l'interazione in corso grazie alla percezione diretta e alle inferenze basate su indizi percettivi: _'Hanno suonato alla porta, sarà il postino'_, _'Questo ragno si muove... sarà ancora vivo'_ sono esempi costruiti ad hoc sull'evidenzialità basati su indizi percettivi. Spesso nella letteratura sull'evidenzialità gli esempi sono costruiti a tavolino. Quando però abbiamo dei dati video a disposizione possiamo capire <ins>in modo empirico</ins> quali stimoli eventualmente presenti nella situazione diventano funzionali all'espressione della fonte. 
+Le risorse, i ruoli dei partecipanti e la sequenzialità del posizionamento epistemico variano a seconda dei tipi di interazione. TIGR consente di studiare questa variazione in quanto sono stati inclusi all'interno del corpus diversi tipi di interazione.
+TIGR is a video corpus and therefore allows to examine multimodal evidential resources.
+Sono stati inclusi vari tipi di situazione, volevamo avere una certa variazione tra i generi interazionali. non volevamo focalizzarci su un solo tipo di situazione ma poter documentare una certa variazione e quello che eventualmente è invariabile, quindi di poter fare delle generalizzazioni.
 
-     - Identificare il ruolo della direzione dello sguardo e di certi gesti nel posizionamento epistemico.
-  
-     - Comprendere la costruzione del riferimento deittico   
-      Ad esempio, _qui_, _qua_, etc., interpretabili meglio quando sono presenti delle immagini a cui poter fare riferimento.
+TIGR è un corpus video e permette quindi di esaminare le risorse evidenziali multimodali.
+Il TIGR è un corpus video, particolarità di questo corpus oltre alle sue caratteristiche diatopiche, cioè che è stato raccolto in Svizzera.
 
-2. La presenza di un riferimento video consente una prospettiva più ricca e dinamica su come la grammatica funzioni e si sviluppi nel contesto di interazioni reali e multi-modali. Infatti, la grammatica (come la sintassi o i segnali discorsivi) da un lato è uno strumento che organizza l'interazione, ma dall'altro può essere influenzata o "emergere" dalle strutture sequenziali delle interazioni, cioè da come si sviluppano e si susseguono gli scambi comunicativi nel tempo. Dato che le interazioni non sono mediate solo dalle parole, ma anche dai gesti, i movimenti o le espressioni facciali, <ins>i video permettono di osservare come si sviluppano le interazioni nel loro contesto sequenziale completo</ins>. Inoltre, consentono di analizzare la **multi-attività**, cioè situazioni in cui il discorso si intreccia con altre attività parallele (ad esempio, una persona che parla mentre cucina o che gesticola durante la conversazione).  
 
-3. La variazione diafasica viene meglio studiata grazie al video. È infatti possibile studiare quelle interazioni che generalmente non vengono prese in considerazione se si dispone solamente dell'audio in quanto con la sola documentazione audio si perdono troppe informazioni. Un esempio potrebbe essere l'analisi dell'interazione durante una lezione di guida, inutile se l'interazione è documentata solo tramite registrazione audio.
+Secondo paragrafo_ Perché un corpus video dell'italiano parlato?
+1. l'immagine video ci consente lo studio dell'uso integrato di mezzi verbali, mezzi multimodali e risorse situazionali (oggetti a disposizione in una situazione che diventano funzionali alla comunicazione):
+    - fonti in situ (acquisizione di informazioni durante l'interazione in corso grazie alla percezione diretta e alle inferenze basate su indizi percettivi)
+     "Hanno suonato alla porta, sarà il postino", "Questo ragno si muove...sarà ancora vivo". questi esempi sono trattati nella letteratura sull'evidenzialità di solito sulla base di esempi costruiti. Quando però abbiamo dei dati video possiamo capire quali sono eventuali stimoli presenti che diventano funzionali all'espressione della fonte. possiamo farlo in modo empirico, non costruendo degli esempi.
+    - ruolo della direzione dello sguardo e di certi gesti nel posizionamento epistemico
+      L'immagine video ci consente di studiare la multimodalità in tutti i sensi, l'uso dello sguardo, l'integrazione tra sguardo e altre modalità
+    - costruzione del riferimento deittico 
+       qui, qua... interpretabili molto meglio quando abbiamo delle immagini
 
-### Composizione del corpus  
 
-Per conoscere la struttura del TIGR nel contesto del progetto InfinIta e lo statuto del corpus tra i vari corpora linguistici esistenti, si rimanda all'articolo [_Composizione del corpus_](https://sharetigr.usi.ch/it/news/feeds/37812).
+2. studio della grammatica (sintassi, segnali discorsivi) in interazione  19.04
+   si cerca di capire la relazione tra grammatica e interazione nei due sensi: la grammatica come risorsa che organizza l'interazione e la grammatica che emerge da strutture sequenziali
+    - visione più completa dello sviluppo sequenziale, tenendo conto della multi-attività
+     multi-attività: dove il discorso si intreccia con attività parallele di diversa natura
 
-Design iniziale del corpus TIGR (2020)
+3. studio della variazione diafasica
+  - visione più adeguata della varietà generica (tipi di situazione)
+    si è parlato del written bias in linguistica, ma c'è anche un audio bias
+    questo significa che alcuni tipi di situazione sono ben documentabili tramite l'audio-registrazione e possono essere studiate, altri tipi di situazione non sono così interessanti da studiare se uno ha solo l'audio perché si perde troppa informazione (es lezione di guida), quindi la tendenza è di non studiarle perché ci perdiamo una parte della variazione diafasica
+
+riteniamo quindi che possa valere la pena costruire dei corpora con dati audioregistrati, anche se richiede tanto sforzo e lavoro
+
+terza sezione_ composizione del corpus  [Composizione del corpus](https://sharetigr.usi.ch/it/news/feeds/37812)
+FORSE PER LA COMPOSIZIONE DEL CORPUS POSSO SEMPLICEMENTE LINKARE L'ARTICOLO
+
+
+il design del corpus e la sua composizione risponde a queste questioni teoriche più generali di cui si è parlato e a questioni più specifiche legate al corpus
+abbiamo detto che il TIGR è stato raccolto in vista di domande di ricerca specifiche relative alla fonte di informazione, e in questo senso può essere considerato uno _special corpus_
+
+
+
+The TIGR corpus in and beyond Infinita
+TIGR was collected in view of a specific research goal (special corpus).
+The first goal of TIGR has been to answer research questions related to information source in interaction:
+• Resources, participant roles and the sequentiality of epistemic positioning vary across interaction types. TIGR allows to study that variation.
+• TIGR is a video corpus and therefore allows to examine multimodal evidential resources.
+However, being varied as to interaction types and being complementary to other corpora of spoken Italian as to geographical variation and technical set-up, it has a potential to be reused in further research.
+Reference corpus (balanced, representative)
+vs. opportunistic corpus (consisting of several special corpora "one [sc. the corpus owner/compiler] can lay hands upon") 
+TRADUZIONE
+Tuttavia, essendo vario per quanto riguarda i tipi di interazione ed essendo complementare ad altri corpora di italiano parlato in termini di variazione geografica e configurazione tecnica, ha il potenziale per essere riutilizzato in ulteriori ricerche.
+Corpus di riferimento (bilanciato, rappresentativo)
+vs. corpus opportunistico (composto da diversi corpora speciali che 'si possono raccogliere facilmente [dal punto di vista del proprietario/compilatore del corpus]'). -> CHATGPT
+è un corpus opportunistico, collezioni di corpora speciali raccolti all'interno di uno specifico progetto di ricerca.
+non è un corpus di riferimento, non è nato a livello di design come un corpus bilanciato per tutta una serie di variabili sociolinguistiche ma si può espandere o inserire all'interno di una rete.
+
 ![alt text](image-10.png)
+Design del corpus TIGR nel 2020
 
+Come si è detto, sono stati inclusi diversi tipi di interazione: intervista, conversazione a tavola, preparazione di un pasto, lavori di gruppo e lezioni; per un totale di 28 ore. 
+Si era pensato ai parametri che differenziano questi tipi di interazione. Parametri che hanno un impatto sul tipo di analisi che ci interessava relativo alle fonti di informazione e al posizionamento epistemico. 
+parametri: numero di partecipanti, se i partecipanti si muovono o meno e se qualcuno di loro manipola degli oggetti.
+C'è un dibattito su quali parametri siano effettivamente pertinenti per descrivere la variazione dei tipi di interazione. Pe noi la manipolazione di un oggetto è un parametro importante perché può determinare una variazione per quanto riguarda l'espressione dei tipi di fonte di informazione. 
+Il design nasceva pensando a questo tipo di variazione diafasica. 
 
-Secondo il disegno iniziale, l'idea era di includere diversi tipi di interazione: intervista, conversazione a tavola, preparazione di un pasto, lavori di gruppo e lezioni; per un totale di 28 ore e 39 eventi.
+Ci sono stati dei cambiamenti strada facendo.
+I dati sono stati raccolti circa da maggio 2021 a maggio 2022. 
+Riadattamenti del design dovuti alle restrizioni Covid e alla disponibilità effettiva dei parlanti.
+Il Covid ha ritardato l'inizio della raccolta dati e la possibilità di registrare le situazioni di interazione che avevamo pensato.
+sono state privilegiate le interazioni in ambienti privati. 
+Alla fine del processo abbiamo ottenuto 23h 30' di videoregistrazione, 23 eventi e 115 parlanti.
 
-Però strada facendo ci sono stati dei riadattamenti del design del corpus a causa dell'avvento della Pandemia di COVID-19. Per saperne di più sulle problematiche nella raccolta dei dati legate alla Pandemia , leggere l'articolo [_Raccogliere dati linguistici ai tempi del COVID-19_](https://sharetigr.usi.ch/it/news/feeds/38556).    
-Alla fine del processo sono state ottenute 23h 30' di videoregistrazione, per un totale di 23 eventi e 115 parlanti.
+per quanto riguarda la composizione siamo arrivati a questa tabella:
 
-La versione finale del corpus TIGR
 ![alt text](image-11.png) 
 
-Per quanto riguarda i contesti didattici, sono state registrate lezioni di tre tipi: 
-- sessioni di tutoring in architettura, 
-- lezioni di teatro, di musica e di restauro e 
-- lezioni di glottodidattica e di cultura generale nella scuola superiore in cui gli studenti si cimentavano in lavori di gruppo e presentazioni. 
+I setting, ovvero i tipi di interazione: conversazioni a tavola in ambienti privati tra amici e famigliari, preparazione di pasti, interviste. Il cambiamento sta nei contesti didattici, dove sono state registrate lezioni molto atipiche di tre tipi: sessioni di tutoring in architettura, lezioni di teatro, di musica e di restauro e lezioni di glottodidattica e di cultura generale nella scuola superiore in cui gli studenti si cimentavano in lavori di gruppo e presentazioni. 
+I parametri sono sempre gli stessi, tranne per il parametro dell'istituzionalità. Ci sono dei generi istituzionali, come quello dell'intervista o della didattica. E ci sono dei generi non istituzionali. Questo si lega al ruolo dei partecipanti, che può essere simmetrico o asimmetrico. Questo è un parametro molto importante per studiare la fonte di informazione, e in generale la dimensione epistemica. Se un rapporto di asimmetria gerarchica è anche un'asimmetria epistemica, o se i rapporti tra i parlanti sono variabili.
+Il movimento dei partecipanti e la manipolazione degli oggetti ha a che fare con la multi-attività, cioè quando i parlanti sono impegnati oltre che nel discorso anche in un'attività non verbale. La multi-attività ha un effetto quantomeno sull'organizzazione sequenziale del discorso e poi sull'interpretazione dei fenomeni linguistici che si vogliono studiare.
 
-Ai parametri del design iniziale sono stati aggiunti l'**istituzionalità** e il **ruolo dei partecipanti**. Esistono tipi di interazione istituzionali, come l'intervista o una lezione, e tipi di interazione non istituzionali, come la preparazione di un pasto o la conversazione a tavola. Il parametro dell'istituzionalità influisce sul ruolo dei partecipanti, che può essere simmetrico, asimmetrico o variabile. Prendendo in considerazione quest'ultimo parametro, è possibile studiare la dimensione epistemica in relazione al ruolo dei partecipanti, e quindi capire, ad esempio, se un rapporto di asimmetria gerarchica determina anche un'asimmetria epistemica. 
-Il movimento dei partecipanti e la manipolazione degli oggetti hanno a che fare con la multi-attività, la quale ha un effetto sull'organizzazione sequenziale del discorso.
-
-PER GLI ESEMPI MI PIACEREBBE CREARE DEI COLLEGAMENTI IPERTESTUALI AL VIDEO DEL SEMINARIO.
+Per gli esempi mi piacerebbe creare dei **collegamenti ipertestuali al video del seminario**
 
 ## Parlanti del TIGR
 
 ### Reclutamento dei parlanti
 
-Il contatto e il reclutamento dei partecipanti sono descritti in dettaglio nel seguente articolo: [_Il lavoro sul campo: ricerca e contatto dei partecipanti_](https://sharetigr.usi.ch/it/news/feeds/38402). Nel testo dell'articolo è presente anche il link al questionario che è stato sottoposto ai parlanti.
+Il contatto e il reclutamento dei partecipanti sono descritti in dettaglio nel seguente articolo: [Il lavoro sul campo: ricerca e contatto dei partecipanti](https://sharetigr.usi.ch/it/news/feeds/38402). Nel testo dell'articolo è presente anche il link al questionario che è stato sottoposto ai parlanti.
 
 Il requisito fondamentale che i parlanti dovevano possedere per essere scelti come partecipanti era di essere **italofoni**. Non era necessario che la lingua italiana fosse la lingua madre (L1).
 
-Per un approfondimento sul questionario che i parlanti hanno dovuto compilare: [_Digitisation of the TIGR participant questionnaires_](https://sharetigr.usi.ch/en/news/feeds/37690)
+Per un approfondimento sul questionario che i parlanti hanno dovuto compilare: [Digitisation of the TIGR participant questionnaires](https://sharetigr.usi.ch/en/news/feeds/37690)
 
 ### Dichiarazioni di consenso informato: esigenze della ricerca, esigenze legali e questioni etiche
 
-Per redigere la dichiarazione di consenso informato è stato utilizzato un modello interno all'USI e sono stati consultati la Commissione etica e il Servizio legale dell'università.
-Inoltre, si è fatto riferimento a normative, come la Legge federale sulla protezione dei dati, e linee guida, come quelle indicate da FORS.
-Per una riflessione approfondita sulle tematiche legali, si rimanda all'articolo [_Social interaction is among people. Legal, technical, and ethical explorations about personal information and its removal in talk-in-interaction as data_](https://www.chord-talk-in-interaction.usi.ch/news/feeds/36387).
+- Modello USI e contatti con Commissione etica e Servizio legale
+Abbiamo operato con un modello di consenso informato interno a USI
+- Riferimenti legislativi e linee guida, come la Legge federale sulla protezione dei dati, e linee guida come quelle indicate da FORS
+Per una riflessione approfondita sulle tematiche legali, si rimanda all'articolo [Social interaction is among people. Legal, technical, and ethical explorations about personal information and its removal in talk-in-interaction as data](https://www.chord-talk-in-interaction.usi.ch/news/feeds/36387)
 
-Prevedere fin dall'inizio la pubblicazione dei dati (video) richiede una riflessione su due tematiche principali:
-
-1. Come gestire la de-identificazione dei parlanti? 
-2. Come descrivere in modo informativo ma non limitante il futuro riuso dei dati? 
+- Prevedere fin dall'inizio la pubblicazione dei dati (video) richiede una riflessione sui contenuti delle dichiarazioni:
+  due problematiche maggiori
+  Come gestire la de-identificazione dei parlanti? Come descrivere in modo informativo ma non limitante il futuro riuso dei dati? Quali impegni possiamo prendere come ricercatori? Noi ricercatori abbiamo preso degli impegni con i nostri partecipanti. è un passaggio delicato, non soltanto come tutela legale ma proprio anche di rapporto di fiducia che si può instaurare con il parlante che decide sulla base del documento informativo o di aderire o meno al progetto. 
+  Si parla di "de-identificazione" e non di "anonimizzazione". Per una definizione terminologica si rimanda all'articolo [Social interaction is among people. Legal, technical, and ethical explorations about personal information and its removal in talk-in-interaction as data](https://www.chord-talk-in-interaction.usi.ch/news/feeds/36387)
 
 Qui di seguito, la struttura del documento di dichiarazione di consenso informato che è stato fatto firmare ai partecipanti.
 
-Parte A. Documento informativo
+Parte A. Documento informativo:
 1. Introduzione 
 2. Descrizione del progetto di ricerca per un pubblico non specialista
 3. Descrizione dell'evento e modalità di video-registrazione
@@ -94,19 +133,19 @@ Parte A. Documento informativo
 6. Diritti dei partecipanti allo studio
 7. Contatti
 
-Parte B. Consenso informato  
-Ai parlanti è stato fatto scegliere tra due misure di de-identificazione:
+Parte B. Consenso informato:
+Scelta tra diverse misure di de-identificazione
    - default> pseudonimi nella trascrizione, silenzi nella traccia audio, misure di de-identificazione nei metadati
    - misure supplementari> alterazione della voce nella traccia audio (6 richieste), applicazione di filtri nella traccia video (15 richieste)
 
-Per saperne di più a proposito della stesura del documento di dichiarazione di consenso informato da parte del team di InfinIta, si legga l'articolo [_Dichiarazioni di consenso informato_](https://sharetigr.usi.ch/it/news/feeds/38259).
+Per saperne di più a proposito della stesura del documento di dichiarazione di consenso informato da parte del team di InfinIta, si legga [Dichiarazioni di consenso informato](https://sharetigr.usi.ch/it/news/feeds/38259)
 
 #### Misure di de-identificazione dei dati 
 
 Per quanto riguarda le misure di de-identificazione dei dati inseriti dai partecipanti, sono stati adottati alcuni provvedimenti:
 - Ad ogni partecipante è stato attrbuito un codice informatore nel formato inf-N. 
 - L'età è stata ridotta a un intervallo.
-- Per quanto riguarda le informazioni sul luogo di provenienza, è stato inserito lo Stato (ad esempio, Svizzera) e il cantone (o la regione nel caso dell'Italia).
+- Per quanto riguarda le informazioni sul luogo di provenienza, è stato inserito lo Stato (Italia o Svizzera) e il cantone/regione.
 
 ### Dati sociolinguistici ricavati
 
@@ -149,7 +188,7 @@ Nei Grigioni sono stati registrati 4 eventi in 1 piccolo centro e altri 4 eventi
 Si precisa che il corpus non è disegnato per documentare la variazione diatopica dell'italiano parlato in Svizzera.
 
 #### Misure di de-identificazione del luogo di registrazione:
-- il luogo di registrazione viene descritto solamente dal Cantone e dalle dimensioni del centro abitato (> o <10,000 abitanti). 
+- il luogo di registrazione viene descritto solamente dal Cantone e dalle dimensioni del centro (> o <10,000 abitanti). 
 
 
 ## Impostazione tecnica delle registrazioni, post-produzione e trascrizione
@@ -158,15 +197,18 @@ Si precisa che il corpus non è disegnato per documentare la variazione diatopic
 L'impostazione di base è stata quella di andare sul luogo della registrazione, installare i dispositivi e lasciare che i parlanti interagissero da soli. Solamente nelle interazioni didattiche e nelle interviste erano presenti anche i ricercatori.
 Una volta conclusesi le interazioni, i ricercatori venivano contattati dai partecipanti tramite Whatsapp.
 
-Per informarsi sulla strumentazione utilizzata per le registrazioni e sulla post-produzione si veda **collegamento ipertestuale con il sito del corpus "Registrazioni audio e video"** e l'articolo [_Dall'evento al dataset_](https://sharetigr.usi.ch/it/news/feeds/37851).
+Per informarsi sulla strumentazione utilizzata per le registrazioni e sulla post-produzione si veda **collegamento ipertestuale con il sito del corpus "Registrazioni audio e video"** e l'articolo [Dall'evento al dataset](https://sharetigr.usi.ch/it/news/feeds/37851).
 
 ### La trascrizione
 
 Per la trascrizione è stato utilizzato il software ELAN, v. 6.7. 
-È stato inoltre adottato il sistema GAT2 (Gesprächsanalytische Transkriptionssystem):
+La trascrizione finora è stata svolta da tre studentesse assistenti impiegate in periodi diversi. Attualmente il team di InfinIta collabora con una studentessa e uno studente assistenti per completare la trascrizione.
+Il team del progetto lavora sulla revisione delle trascrizioni, sull'esportazione e la formattazione.
+
+Per la trascrizione è stato adottato il sistema GAT2 (Gesprächsanalytische Transkriptionssystem):
 - funzionale a una trascrizione tramite software e machine-readable
 - integrato in editor digitali (per esempio EXMARaLDA)
-- dotato di tre livelli di granularità: minimal script, basic script e fine script (quello più dettagliato e usato per il corpus TIGR)
+- tre livelli di granularità: minimal script, basic script e fine script (quello più dettagliato e usato per il corpus TIGR)
 
 Alla guida interna sono stati aggiunti:
 - una lista di lemmi per uniformare la grafia delle interiezioni
@@ -258,14 +300,13 @@ La procedura comprende i seguenti step, elencati in ordine di precedenza:
 
 La condivisione e il riuso dei dati è un ciclo: dei ricercatori producono dati per altri ricercatori che li riusano.
 I due momenti di condivisione e riuso sono rappresentati graficamente nelle immagini qui sotto:
-
 ![alt text](image-31.png)
 ![alt text](image-32.png)
 
 Dal punto di vista tecnico le infrastrutture digitali (sono quelle che si vedono nel mezzo) sono cruciali in questo processo.
 Nella condivisione e nel riuso dei dati sono contemplati tre mezzi:
 1. repositorio
-2. piattaforma per la consultazione online 
+2. piattaforma digitale per la consultazione online 
 3. l'invio dei dati a qualcuno tramite e-mail, 
 
 Un quarto mezzo potrebbe essere rappresentato dalle "data sessions", ovvero incontri faccia a faccia dove si lavora sui dati.
@@ -274,9 +315,7 @@ L'invio di dati tramite e-mail non assicura che i dati siano reperibili e access
 
 ![alt text](image-33.png)
 
-### Il repositorio
-
-Nel caso del corpus TIGR verrà usato il **repositorio LaRS**, la sezione linguistica del repositorio [SWISSUbase](https://www.swissubase.ch/en/). Un articolo di approfondimento in inglese per chi fosse interessato: [_Exploring LaRS @ SWISSUbase_](https://sharetigr.usi.ch/it/news/feeds/37958).   
+Nel caso del corpus TIGR verrà usato il repositorio LaRS, la sezione linguistica del repositorio SWISSUbase. 
 Il repositorio LaRS è organizzato secondo tre livelli gerarchici:
 1. Studi
 2. Dataset (entità scaricabile)
@@ -292,31 +331,7 @@ Ci saranno poi i dataset dei singoli eventi. Di ogni evento ci sarà una version
 L'ultimo dataset sarà un dataset di sole trascrizioni, pensando a coloro che hanno la necessità di fare ricerca sulle trascrizioni e non hanno bisogno di visionare o di ascoltare i file multimediali. 
 
 Il repositorio assegna un DOI a ciascun dataset.
-Il dataset è l'unità scaricabile. 
-
-#### Metadati
-
-Il repositorio mette a disposizione dei campi predefiniti, alcuni obbligatori alcuni facoltativi. Si è pensato di aggiungere anche delle tabelle (in formato CSV) con i metadati per ogni singolo evento.
-
-![alt text](image-35.png)
-
-Come si vede nell'immagine per ogni singolo evento il cuore è la tabella più centrale con le caratteristiche di base dell'evento (come il numero di partecipanti, il genere di interazione, e così via). La tabella centrale rinvia poi a una serie di altre tabelle. A sinistra si vedono due tabelle con i parlanti e i luoghi del TIGR. I parlanti del TIGR sono collegati al singolo evento tramite l'elenco dei partecipanti all'evento.  
-L'evento è poi associabile all'elenco dei file video, all'elenco dei file audio e all'elenco delle trascrizioni. 
-
-### Verso la messa a disposizione in una piattaforma digitale per la consultazione online
-
-Ovviamente il repositorio è uno scenario di riuso che suppone il download dei dati sul proprio computer. Questo ha i suoi vantaggi, come la grande libertà di quello che si può fare con questi dati, e i suoi svantaggi, come quello di dover avere sul proprio computer gli strumenti per leggere i dati scaricati. 
-La piattaforma online, al contrario, è percepita da molti come più comoda perché non richiede il download di alcun strumento di analisi.  
-
-Nel contesto del [progetto FAIR-FI-LD](https://www.liri.uzh.ch/en/projects/FAIR-FI-LD.html) condotto dall'Università di Zurigo a cui partecipa tra gli altri anche l'USI (in particolare l'Istituto di Studi Italiani, o ISI), si vuole depositare il TIGR nel [LiRI Corpus Platform (o LCP)](https://www.liri.uzh.ch/en/services/LiRI-Corpus-Platform-LCP.html). Questa piattaforma online è stata creata dal LiRI (Linguistic Research Infrastructure), un dipartimento dell'Università di Zurigo. Per saperne di più sul LiRI e di che cosa si occupa, qui è riportata la home page del sito: https://www.liri.uzh.ch/en.html.   
-Grazie alla collaborazione con _Linguisticbits_, di cui si è parlato sopra, si sta cercando di definire una procedura di upload in LCP di trascrizioni XML tokenizzate. 
-
-
-
-
-[Grouping the TIGR data for reuse](https://sharetigr.usi.ch/it/news/feeds/38003)
-
-
+Il dataset è l'unità scaricabile.
 
 Post sul blog scientifico sulla trascrizione in ELAN:
 
@@ -352,8 +367,8 @@ A proposito, invece, delle tecniche di de-identificazione si riporta il link al 
 [Pubblicazioni e presentazioni nelle quali sono stati usati i dati TIGR](https://sharetigr.usi.ch/it/st/publications)
 
 (dall'abstract che ho trovato su sharepoint, che dovrebbe integrare l'introduzione)  
-The TIGR corpus of spoken Italian includes 23.5 hours of video-recorded and transcribed discourse and was gathered by a team of linguists at USI Università della Svizzera italiana in the Swiss cantons Ticino and Grisons in 2021-2022. 
--We describe the corpus design and some changes it underwent during fieldwork; the interaction with the speakers, including their informed consent to participate in the study; the set-up of audio and video recordings; sociolinguistic characteristics of the participants; transcription conventions and techniques; workflows of transcript processing in view of qualitative analysis and annotation; de-identification measures; scenarios of data reuse; the organization of the data and metadata on LaRS; an open science approach to problem solving during the preparation of the data to be shared; future perspectives.- ABSTRACT DEL VIDEO??
+The TIGR corpus of spoken Italian includes 23.5 hours of video-recorded and transcribed discourse and was gathered by a team of linguists at USI Università della Svizzera italiana in the Swiss cantons Ticino and Grisons in 2021-2022. It is currently being prepared for being shared via the Swiss FAIR-compliant (cf. Wilkinson et al. 2016) LaRS repository.
+We describe the corpus design and some changes it underwent during fieldwork; the interaction with the speakers, including their informed consent to participate in the study; the set-up of audio and video recordings; sociolinguistic characteristics of the participants; transcription conventions and techniques; workflows of transcript processing in view of qualitative analysis and annotation; de-identification measures; scenarios of data reuse; the organization of the data and metadata on LaRS; an open science approach to problem solving during the preparation of the data to be shared; future perspectives.
 TIGR was collected within a research project conducted at USI and focused on epistemic aspects of talk (InfinIta, SNSF grant no. 192771). At the same time, it was designed to increase the diversity of available resources for spoken Italian (for an overview see Mauri et al. 2019). It includes 23.5h of video recordings documenting 23 face-to-face interactions. These vary as to genre and as to external criteria (Sinclair & Ball 1996), more specifically event-related parameters (Deppermann/Hartung 2011:423-424) such as institutionality, the number of participants, speaker roles and the presence of multi-activity (Mondada 2009): table conversations (6h5'), food preparation (1h40'), tutoring encounters (4h40'), lessons and practical instruction (7h20'), interviews (3h40'). The data collection process underwent some changes due to the Covid-19 pandemic, which had an impact on the corpus structure. The 115 speakers are 10-70 years old (most represented range: 20-29 years) and about 3/4 of them finished a higher secondary school. They declared their consent to data use and re-use for scientific purposes and expressed some de-identification demands. The technical set-up included two camcorders and 2-4 pocket audio recorders equipped with clip-on microphones, all synchronized through timecode generators. The A/V files were aligned and cut to equal length in Adobe Premiere. The team then transcribed them in ELAN (Sloetjes/Seibert 2016) using an adapted version of the GAT 2 conventions (Selting et al. 2011). A transcription technique was adopted that privileged the alignment of segment boundaries with boundaries of overlapping speech, such as to facilitate the revision of transcripts in ELAN and the manual layout of complex sequences with overlapping speech. Proper names were pseudonymized.  
 The data will be made available on the SWISSUbase repository using the metadata scheme provided by LaRS, which is tailored for data in linguistics. The data will be downloadable upon signing a user agreement with the corpus owners. To enhance interoperability and reusability, we plan to provide two transcript versions in addition to the EAF file generated by ELAN. By now, we have implemented a script-assisted workflow to produce TXT transcripts that are optimized for the human eye and preserve a reduced amount of timecode stamps. Later we intend to create tokenized transcripts readable by corpus linguistic software. In A/V files we are masking faces and voices, where so required, and replacing proper names by noise. For each recorded event, we are editing a single compact, easy-to-use movie file with split screen and mixed audio. Once ready, the corpus will be uploaded to the repository, completed by metadata and documentation. Users could have the following download options: event by event, either a full version (A/V files, compact movie, EAF file, transcripts) or a light version (compact movie, transcripts); transcripts only for all events at once, raw TXT or tokenized.  
 While preparing the data, we are step by step building a webpage to present the corpus. In parallel, we use a lab blog (sharetigr.usi.ch) to publicly report on our experience and discuss issues we are facing, thus building a case study of open research data practices in linguistics. 
@@ -370,6 +385,3 @@ Condizione del riuso dei dati è che essi siano reperibili, accessibili tecnicam
 Dopo il deposito su repositorio, un ulteriore scenario di condivisione può essere quello di inserire i documenti su una piattaforma che permetta la loro consultazione e analisi online. Piattaforme esistenti per i corpora orali come il sito del corpus KiParla (Mauri e Goria 2018, Miecznikowski e Profazi 2023a), la Datenbank für Gesprochenes Deutsch DGD (Schmidt 2014) o il Corpus de LAngue Parlée en Interaction CLAPI  mostrano i vantaggi e il potenziale della consultazione online. Ciò è emerso chiaramente da una serie di giornate di studio organizzate nel quadro di un progetto attualmente in corso all'USI, in collaborazione con altre università svizzere, co-finanziato da swissuniversities e volto a esplorare "Data-sharing skills in corpus-based research on talk-in-interaction" (CHORD-talk-in-interaction ). Piattaforme per corpora orali multimediali devono tuttavia ancora essere sviluppate in Svizzera.
 
 Tornando a ShareTIGR, il progetto durerà un anno e sarà coinvolto il team di InfinIta (Johanna Mieczikowski, Elena Battaglia e Christian Geddo ), che è stato presente sul campo e ha rivisto le trascrizioni, rafforzato nei primi mesi dal contributo di una collaboratrice attiva anche in CHORD-talk-in-interaction ( Nina Profazi ). Durante quest'anno, in parallelo al lavoro sui dati completeremo man mano la descrizione del corpus TIGR sul sito del progetto e condivideremo la nostra esperienza tramite il blog, a più voci e in due lingue (italiano e inglese). Ci rivolgiamo a studiose e studiosi di linguistica e delle scienze sociali, a persone interessate alle digital humanities, a specialisti della gestione di dati, a divulgatori scientifici e al pubblico interessato. Usando diversi canali, dai convegni scientifici alle pagine web, il blog e i social media, intendiamo trattare la preparazione del corpus TIGR come un caso studio che permetta di riflettere su sfide e opportunità, problemi e soluzioni che riguardano più generalmente gli open research data (ORD ) in linguistica e in campi affini.
-
-
-FORSE SI POTREBBERO RACCOGLIERE TUTTI I LINK IN FONDO
