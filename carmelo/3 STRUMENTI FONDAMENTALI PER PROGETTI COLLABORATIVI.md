@@ -1,19 +1,3 @@
----
-summary: |-
-  ### Software utili per tirocini
-  - Creare un Account Github: https://github.com/
-  - Installare un client git (qui download per windows/mac/linux): https://git-scm.com/downloads/win
-    - per windows lasciare le proposte di default durante l'installazione
-  - Installare un editor di testo "avanzato": Visual Studio Code 
-tags: 
-- #sh-github 
-reference-(web/altro):
-card-question: domanda flashcard nota
-card-answer: risposta flashcard nota
-acronyms: 
-creation-date: "202410231130"
-info: 'obsidian (md) + anki + MN'
----
 
 # KEYWORDS
 - Progetti Collaborativi, Condivisione, Editor di Testo, Versioning, Formato Markdown, Github, Client Git, Visual Studio Code
