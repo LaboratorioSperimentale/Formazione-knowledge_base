@@ -1,9 +1,11 @@
-
+---
+layout: default
+---
 Responsab |  Data               | Flag-Lavorato |  Titolo 																		|  Speaker  |  Durata   |  Abstract | Università |  Tags    |  Materiale | Note | Video |
 ----------|---------------------| ---------     | ----------																	| ----------| ------------| ---------| -----------| -----------| ---- | ---- |  --- |
 ----------| 13-15 nov 2019      | **flag**      | Creare ed esplorare un corpus di testi con SketchEngine 						| Riccardo Billero | **min** | **abstract** | Università di Firenze 		| **tag** | **materiale** | **note** | **LINK**
 ----------| 19 dic 2019         | **flag**      | Multimodal Analysis Video Workshop 					  						| Kay O'Halloran   | **min** | **abstract** | University of Liverpool		| **tag** | **materiale** | (no video) | **LINK**
-Esmeralda | 11 nov 2020         | **flag**      | Per un uso consapevole dei software citazionali 								| Claudio Fabbri   | **min** | **abstract** | FICLIT, Università di Bologna	| **tag** | **materiale** | **note** | [link](https://liveunibo-my.sharepoint.com/:v:/g/personal/ludovica_pannitto_unibo_it/EaPk7pWLAAJIi1IwJe3cxUkBtctFz0f08a2IfigUPpjpqg?e=jO3ZQp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+Esmeralda | 11 nov 2020         | **flag**      | Per un uso consapevole dei software citazionali 								| Claudio Fabbri   | **min** | **abstract** | FICLIT, Università di Bologna	| **tag** | **materiale** | **note** | [link](https://liveunibo-my.sharepoint.com/:v:/g/personal/ludovica_pannitto_unibo_it/EaPk7pWLAAJIi1IwJe3cxUkBtctFz0f08a2IfigUPpjpqg?e=jO3ZQp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 Esmeralda | 20 nov 2020         | **flag**      | How to use NVivo for content analysis											| Patrick Goethals | **min** | **abstract** | Ghent University 				| **tag** | **materiale** | **note**| **LINK**
 Esmeralda | 11 dic 2020         | **flag**      | Experimental methods and behavioural data in linguistics 						|   Florent Perek  | **min** | **abstract** | University of Birmingham 		| **tag** | **materiale** | **note**| **LINK**
 Marco     | 21 gen 2021         | **flag**      | La trascrizione del parlato con ELAN 											| Silvia Ballarè   | **min** | **abstract** | FICLIT, Università di Bologna | **tag** | **materiale** | **note**| **LINK**
@@ -41,7 +43,7 @@ E + G     | 27 mag 2022         | **flag**      | Analisi dei dati linguistici c
 ----------| 00000000            | **flag**      | Digital Text Annotation and Analysis with CATMA 7 | **Autore** | **min** | **abstract** | **University**	| **tag** | **materiale** | **note** | **link**
 ----------| 00000000            | **flag**      | Focus on eye-tracking | **Autore** | **min** | **abstract** | **University**	| **tag** | **materiale** | **note** | **link**
 ----------| 00000000            | **flag**      | Graph Rewriting for corpus development and maintenance     | [Bruno Guillaume](../bio/guillaume.md) | **min** | [abstract](abstracts/graph_rewriting.md) | **University**	| **tag** | **materiale** | **note** | **link**
-     
+
 
 ----------| 19 dic 2019         | **flag**      | Multimodal Analysis Video Workshop 					 | **Autore** | **min** | **abstract** | **University**	| **tag** | **materiale** | **note** | **link**
 
