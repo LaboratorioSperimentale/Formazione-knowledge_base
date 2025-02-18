@@ -1,0 +1,2 @@
+As a first step, the seminar will present the main ideas behind the Universal Dependencies (<https://universaldependencies.org/>, UD) framework from a theoretical linguistic perspective.
+The seminar will then focus on UD resources available to the community, highlighting how these can be useful for linguistic research: this will include concrete pointers to the different UD tools, and to existing information that can help one get familiarized with UD corpus building and annotation process.

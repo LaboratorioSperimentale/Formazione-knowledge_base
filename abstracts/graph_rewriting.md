@@ -1,0 +1,3 @@
+# Graph Rewriting for corpus development and maintenance
+
+[Grew](https://grew.fr) is a generic tool that implements the Graph Rewriting model for manipulating linguistic structures (mainly for syntax and semantics). Several other tools based on the Grew principles are available. We will start with [Grew-match](https://match.grew.fr): a web-based interface for corpus querying; useful for linguistic observations and error mining in corpora. ArboratorGrew is also a web-based system for collaborative annotation of dependency syntax corpora. We will also briefly mention the Grew command line interface for corpus transformation and Grewpy, a Python library providing access to the main features of the Grew system.
