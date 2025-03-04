@@ -100,7 +100,8 @@ Ultimo, ma non meno importante, giova sottolineare che l'architettura sopra desc
 ![](attachment/9105978cfc1dacb8dd8f478094e2eb5b.png)
 - quello che può essere committato appare anche ora (nel source control);
 **- prima devo passare i files a "staged" (cioè, nella lista dei file modificati devo cliccare il simbolo +)**
-**- poi posso procedere con la commit e il push**
+**- poi posso procedere con la commit: il tasto sopra sempre nella sezione**
+**- dopo la commit il tasto si trasforma in sync, che permette di pushare**
 ![](attachment/0de6b3a0e7911e38aba85ac84518c65c.png)
 ![](attachment/207f64f90a01792cbf3d7c024e877b4d.png)
 - prima di eseguire il commit assegno un nome e premo invio:
