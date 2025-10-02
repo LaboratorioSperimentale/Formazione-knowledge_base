@@ -130,7 +130,7 @@ Ultimo, ma non meno importante, giova sottolineare che l'architettura sopra desc
 - salvataggio in locale (del file modificato)
 - git add .
 - git commit -m "vostro messaggio + nome (ad esempio)"
-- git pull (questo manda le modifiche locali vostre sul reporistory centrale di github)
+- git push (questo manda le modifiche locali vostre sul reporistory centrale di github)
 
 
 
