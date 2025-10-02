@@ -117,13 +117,20 @@ Ultimo, ma non meno importante, giova sottolineare che l'architettura sopra desc
 
 ![](attachment/dedb39c21c0192b2aea9707f40a70202.png)
 
-
-
 # COME APPARE ORA IL REPOSITORY
 ![](attachment/bfdd9289116d4b8e413f68863303012d.png)
 ![](attachment/537ee3b361a2fe98c7683c6318d892b2.png)
 
 
+# SINCRONIZZARE IL PROPRIO REPOSITORY IN UPLOAD (le proprie modifiche) E IN DOWLOAD (modifiche altrui)
+### Piccolo recap comandi:
+- git status (in qualunque momento per conoscere l'allineamento del vostro clone rispetto al repositori centralizzato github)
+- git pull (se volete scaricare il contenuto del repository centrale github nel vostro clone locale)
+### Quando fate delle modifiche ai vostri file locali da vs code, dovete fare:
+- salvataggio in locale (del file modificato)
+- git add .
+- git commit -m "vostro messaggio + nome (ad esempio)"
+- git pull (questo manda le modifiche locali vostre sul reporistory centrale di github)
 
 
 
